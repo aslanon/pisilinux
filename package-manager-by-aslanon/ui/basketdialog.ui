@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BasketDialog</class>
+ <widget class="QDialog" name="BasketDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>630</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Basket</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Basket {
+background-color: rgb(0, 0, 0, 180);
+border:1px solid  rgba(255, 255, 255, 100);
+border-radius:2px;
+}
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="Basket" native="true">
+     <property name="styleSheet">
+      <string notr="true">   QLabel { color:rgb(255,255,255,195); }
+ 
+    #packageList {
+        color:rgb(255,255,255,195); 
+        border-radius: 2px;
+	    border:1px solid  rgba(255, 255, 255, 30);
+        background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(27, 27, 27, 10),
+            stop:0.510753 rgba(9, 9, 9, 10),
+            stop:1 rgba(0, 0, 0, 10));
+        show-decoration-selected: 1; /* make the selection span the entire width of the view */
+    }
+
+    #packageList::item{
+        border-radius: 2px;
+        border:0px;
+        padding: 5px;
+        color: rgba(255, 255, 255, 195);
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(255, 255, 255, 5));
+    }
+    #packageList::item:alternate {
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(0, 0, 0, 5));
+    }
+    #packageList::item:selected {
+        border-top:1px solid  rgba(255, 255, 255, 30);
+        border-bottom:1px solid  rgba(255, 255, 255, 30);
+
+    }
+
+    #packageList::item:selected:!active {
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(255, 255, 255, 20));
+    }
+
+    #packageList::item:hover {
+        color:white;
+    }
+
+    #extraList {
+        color:rgb(255,255,255,195); 
+        border-radius: 2px;
+	    border:1px solid  rgba(255, 255, 255, 30);
+        background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(27, 27, 27, 10),
+            stop:0.510753 rgba(9, 9, 9, 10),
+            stop:1 rgba(0, 0, 0, 10));
+        show-decoration-selected: 1; /* make the selection span the entire width of the view */
+    }
+
+    #extraList::item{
+        border-radius: 2px;
+        border:0px;
+        padding: 5px;
+        color: rgba(255, 255, 255, 195);
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(255, 255, 255, 5));
+    }
+    #extraList::item:alternate {
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(0, 0, 0, 5));
+    }
+    #extraList::item:selected {
+        border-top:1px solid  rgba(255, 255, 255, 30);
+        border-bottom:1px solid  rgba(255, 255, 255, 30);
+
+    }
+
+    #extraList::item:selected:!active {
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(255, 255, 255, 20));
+    }
+
+    #extraList::item:hover {
+        color:white;
+    }
+</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <property name="leftMargin">
+       <number>4</number>
+      </property>
+      <property name="topMargin">
+       <number>1</number>
+      </property>
+      <property name="rightMargin">
+       <number>4</number>
+      </property>
+      <property name="bottomMargin">
+       <number>6</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QWidget" name="widget" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget#webWidget {
+	border:0px solid rgba(255, 255, 255, 40);
+	border-radius:5px;
+	background-color:rgba(122,122,122,0);
+    color:rgba(20,20,20);
+}</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="leftMargin">
+          <number>4</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>3</number>
+         </property>
+         <property name="bottomMargin">
+          <number>1</number>
+         </property>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="infoLabel">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">#infoLabel{
+color: rgba(255, 255, 255, 195);
+border: 1px solid rgba(255, 255, 255, 30);
+border-radius:2px;
+background-color: rgba(255, 255, 255, 30);
+}</string>
+           </property>
+           <property name="text">
+            <string>Selected package(s) for install:</string>
+           </property>
+           <property name="indent">
+            <number>3</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="cancelButton">
+           <property name="styleSheet">
+            <string notr="true">color:rgb(20,20,20);</string>
+           </property>
+           <property name="text">
+            <string notr="true"/>
+           </property>
+           <property name="shortcut">
+            <string>Esc</string>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QWidget" name="widget_2" native="true">
+        <property name="styleSheet">
+         <string notr="true">
+/* #QPushButton */
+
+    QPushButton{
+        padding: 3px 10px 3px 10px;
+        color: white;
+        border:0px;
+        border-radius:2px;
+        border:1px solid  rgba(255, 255, 255, 30);
+        background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(27, 27, 27, 0), 
+            stop:0.510753 rgba(9, 9, 9, 10), stop:1 rgba(0, 0, 0, 0));
+    }
+
+    QPushButton:flat{
+        padding: 3px 10px 3px 10px;
+        color: white;
+        border:0px;
+        border-radius:2px;
+        border:1px solid  rgba(255, 255, 255, 30);
+        background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(27, 27, 27, 0), 
+            stop:0.510753 rgba(9, 9, 9, 10), stop:1 rgba(0, 0, 0, 0));
+    }
+    
+    QPushButton:hover{
+        border:1px solid  rgba(255, 255, 255, 40);
+        border-radius:2px;
+        background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0,
+            stop:0.491803 rgba(172, 172, 172, 10),
+            stop:1 rgba(255, 255, 255, 10));
+       /*background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(127, 127, 127, 10), stop:0.513661 rgba(231, 231, 231, 50),
+            stop:1 rgba(94, 94, 94, 10))*/
+    }
+
+    QPushButton:checked{
+        border:1px solid  rgba(255, 255, 255, 30);
+        border-radius:2px;
+        background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(27, 27, 27, 0), stop:0.510753 rgba(9, 9, 9, 10),
+            stop:1 rgba(0, 0, 0, 0));
+    }
+
+    QPushButton:pressed{
+        border:1px solid  rgba(255, 255, 255, 15);
+        border-radius:2px;
+        padding: 3px 10px 3px 10px;
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(52, 52, 52, 50));
+    }</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout" columnstretch="0,0,0,0,0,0">
+         <item row="6" column="0" rowspan="2" colspan="2">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>Total Size:</string>
+               </property>
+               <property name="indent">
+                <number>3</number>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="downloadSizeLabel">
+               <property name="text">
+                <string>Download Size:</string>
+               </property>
+               <property name="indent">
+                <number>3</number>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_5">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeType">
+              <enum>QSizePolicy::Fixed</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>20</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="totalSize">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>&lt;b&gt;2.2 MB&lt;/b&gt;</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="downloadSize">
+               <property name="text">
+                <string>&lt;b&gt;2.0 MB&lt;/</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_4">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0" colspan="6">
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="5" column="0" colspan="6">
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>5</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="4" column="0" colspan="6">
+          <widget class="PackageView" name="extraList">
+           <property name="minimumSize">
+            <size>
+             <width>400</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="showDropIndicator" stdset="0">
+            <bool>false</bool>
+           </property>
+           <property name="dragDropOverwriteMode">
+            <bool>false</bool>
+           </property>
+           <property name="alternatingRowColors">
+            <bool>false</bool>
+           </property>
+           <property name="selectionMode">
+            <enum>QAbstractItemView::NoSelection</enum>
+           </property>
+           <property name="selectionBehavior">
+            <enum>QAbstractItemView::SelectColumns</enum>
+           </property>
+           <property name="verticalScrollMode">
+            <enum>QAbstractItemView::ScrollPerPixel</enum>
+           </property>
+           <property name="showGrid">
+            <bool>false</bool>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+           <property name="cornerButtonEnabled">
+            <bool>false</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <attribute name="verticalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="verticalHeaderDefaultSectionSize">
+            <number>52</number>
+           </attribute>
+           <attribute name="verticalHeaderMinimumSectionSize">
+            <number>52</number>
+           </attribute>
+          </widget>
+         </item>
+         <item row="3" column="0" colspan="6">
+          <widget class="QLabel" name="extrasLabel">
+           <property name="text">
+            <string>Extra dependencies of the selected package(s) that are also going to be installed:</string>
+           </property>
+           <property name="indent">
+            <number>3</number>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="6">
+          <widget class="PackageView" name="packageList">
+           <property name="minimumSize">
+            <size>
+             <width>400</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::NoEditTriggers</set>
+           </property>
+           <property name="showDropIndicator" stdset="0">
+            <bool>false</bool>
+           </property>
+           <property name="dragDropOverwriteMode">
+            <bool>false</bool>
+           </property>
+           <property name="alternatingRowColors">
+            <bool>false</bool>
+           </property>
+           <property name="selectionMode">
+            <enum>QAbstractItemView::NoSelection</enum>
+           </property>
+           <property name="selectionBehavior">
+            <enum>QAbstractItemView::SelectColumns</enum>
+           </property>
+           <property name="verticalScrollMode">
+            <enum>QAbstractItemView::ScrollPerPixel</enum>
+           </property>
+           <property name="showGrid">
+            <bool>false</bool>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+           <property name="cornerButtonEnabled">
+            <bool>false</bool>
+           </property>
+           <attribute name="horizontalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="horizontalHeaderStretchLastSection">
+            <bool>true</bool>
+           </attribute>
+           <attribute name="verticalHeaderVisible">
+            <bool>false</bool>
+           </attribute>
+           <attribute name="verticalHeaderDefaultSectionSize">
+            <number>52</number>
+           </attribute>
+           <attribute name="verticalHeaderMinimumSectionSize">
+            <number>52</number>
+           </attribute>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>2</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="6" column="4" rowspan="2">
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="actionButton">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>Install Package(s)</string>
+             </property>
+             <property name="default">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="clearButton">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="text">
+              <string>Clear Basket</string>
+             </property>
+             <property name="autoDefault">
+              <bool>false</bool>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PackageView</class>
+   <extends>QTableView</extends>
+   <header location="global">packageview.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>packageList</tabstop>
+  <tabstop>extraList</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PmWindow</class>
+ <widget class="QWidget" name="PmWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>550</width>
+    <height>228</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>550</width>
+    <height>170</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Package Manager Quick Install</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#PmWindow{
+background-image: url(:/data/bg.png);
+}
+
+/*QListView*/
+
+    #packageList {
+	    color: rgba(255, 255, 255, 195);
+        border-radius: 2px;
+	    border:1px solid  rgba(255, 255, 255, 30);
+        background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(27, 27, 27, 10),
+            stop:0.510753 rgba(9, 9, 9, 10),
+            stop:1 rgba(0, 0, 0, 10));
+        show-decoration-selected: 1; /* make the selection span the entire width of the view */
+    }
+
+    #packageList::item{
+        border-radius: 2px;
+        border:0px;
+        padding: 5px;
+        color: rgba(255, 255, 255, 195);
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(255, 255, 255, 5));
+    }
+    #packageList::item:alternate {
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(0, 0, 0, 5));
+    }
+    #packageList::item:selected {
+        border-top:1px solid  rgba(255, 255, 255, 30);
+        border-bottom:1px solid  rgba(255, 255, 255, 30);
+
+    }
+
+    #packageList::item:selected:!active {
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(255, 255, 255, 20));
+    }
+
+    #packageList::item:hover {
+        color:white;
+    }   
+
+/* #QPushButton */
+
+    QPushButton{
+        padding: 3px 10px 3px 10px;
+        color: white;
+        border:0px;
+        border-radius:2px;
+        border:1px solid  rgba(255, 255, 255, 30);
+        background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(27, 27, 27, 0), 
+            stop:0.510753 rgba(9, 9, 9, 10), stop:1 rgba(0, 0, 0, 0));
+    }
+
+    QPushButton:flat{
+        padding: 3px 10px 3px 10px;
+        color: white;
+        border:0px;
+        border-radius:2px;
+        border:1px solid  rgba(255, 255, 255, 30);
+        background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
+            stop:0 rgba(27, 27, 27, 0), 
+            stop:0.510753 rgba(9, 9, 9, 10), stop:1 rgba(0, 0, 0, 0));
+    }
+    
+    QPushButton:hover{
+        border:1px solid  rgba(255, 255, 255, 40);
+        border-radius:2px;
+        background-color:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0,
+            stop:0.491803 rgba(172, 172, 172, 10),
+            stop:1 rgba(255, 255, 255, 10));
+    }
+
+    QPushButton:pressed{
+        border:1px solid  rgba(255, 255, 255, 15);
+        border-radius:2px;
+        padding: 3px 10px 3px 10px;
+        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+            stop:0 rgba(52, 52, 52, 50));
+    }</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>4</number>
+   </property>
+   <property name="topMargin">
+    <number>8</number>
+   </property>
+   <property name="rightMargin">
+    <number>4</number>
+   </property>
+   <property name="bottomMargin">
+    <number>1</number>
+   </property>
+   <item row="0" column="0" rowspan="2">
+    <widget class="QLabel" name="label_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../data/data.qrc">:/data/package-manager.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" rowspan="2">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgba(255, 255, 255, 195);</string>
+     </property>
+     <property name="text">
+      <string>Following packages are selected to install. Do you want to install these packages ?</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="PackageView" name="packageList">
+     <property name="whatsThis">
+      <string>Package List</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="showDropIndicator" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="dragDropOverwriteMode">
+      <bool>false</bool>
+     </property>
+     <property name="alternatingRowColors">
+      <bool>true</bool>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::NoSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <property name="showGrid">
+      <bool>false</bool>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="cornerButtonEnabled">
+      <bool>false</bool>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderDefaultSectionSize">
+      <number>52</number>
+     </attribute>
+     <attribute name="verticalHeaderMinimumSectionSize">
+      <number>52</number>
+     </attribute>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="bottomMargin">
+      <number>4</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label_size">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>152</width>
+         <height>21</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_install">
+       <property name="text">
+        <string>Install</string>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_cancel">
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+       <property name="shortcut">
+        <string notr="true">Esc</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PackageView</class>
+   <extends>QTableView</extends>
+   <header location="global">packageview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../data/data.qrc"/>
+ </resources>
+ <connections/>
+</ui>

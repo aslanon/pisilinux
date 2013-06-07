@@ -1,0 +1,868 @@
+# Translation of pt_BR.po to Brazilian Portuguese
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Diogo Lima <diogo.urb@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: pt_BR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-12 00:09+0300\n"
+"PO-Revision-Date: 2010-05-15 20:02-0300\n"
+"Last-Translator: Diogo Lima <diogo.urb@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <http://liste.uludag.org.tr/mailman/listinfo/pardus-translation-ptbr>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/about.py:27
+msgid "(c) 2009-2010 TUBITAK/UEKAE"
+msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#: src/about.py:36
+msgid "Onur Aslan <aslanon>"
+msgstr ""
+
+#: src/about.py:36
+msgid "Qt Designer, New Developer"
+msgstr ""
+
+#: src/about.py:37
+msgid "Gökmen Göksel"
+msgstr "Gökmen Göksel"
+
+#: src/about.py:37
+#, fuzzy
+msgid "Old Developer"
+msgstr "Desenvolvedor"
+
+#: src/about.py:38
+msgid "Faik Uygur"
+msgstr "Faik Uygur"
+
+#: src/about.py:38
+msgid "First Author"
+msgstr "Primeiro Autor"
+
+#: src/about.py:39
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Seus nomes"
+
+#: src/about.py:40
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "Seus emails"
+
+#: src/basketdialog.py:55
+msgid "Clear Basket"
+msgstr "Limpar Cesta"
+
+#: src/basketdialog.py:56
+msgid "Do you want to clear all selections ?"
+msgstr "Você deseja limpar todas as seleções ?"
+
+#: src/basketdialog.py:70 src/pmutils.py:79 src/pmutils.py:84
+#: src/pmutils.py:87 src/pmutils.py:90 src/pmutils.py:93
+#: src/settingsdialog.py:252 src/settingsdialog.py:257
+msgid "Pisi Error"
+msgstr "Erro do PiSi"
+
+#: src/basketdialog.py:173
+msgid "You must restart your system for the updates to take effect"
+msgstr "Você deve <b>reinicializar</b> o seu sistema para que a atualização tenha efeito:"
+
+#: src/basketdialog.py:175 src/basketdialog.py:184
+msgid "Update Requirements"
+msgstr "Atualizar Requerimentos"
+
+#: src/basketdialog.py:176
+msgid "Packages Require System Restart"
+msgstr "Pacote requer reinicialização do sistema"
+
+#: src/basketdialog.py:182
+msgid "You must restart related system services for the updated package(s) to take effect"
+msgstr "Você deve reinicializar os seguintes serviços de sistema para que as atualizações dos pacotes tenham efeito:"
+
+#: src/basketdialog.py:185
+msgid "Packages Require Service Restart"
+msgstr "Pacote requer reinicialização de serviço"
+
+#: src/basketdialog.py:196
+msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
+msgstr "O pacote selecionado é considerado crítico para o sistema, Remove-lo pode deixar seu sistema instável"
+
+#: src/basketdialog.py:199 src/settingsdialog.py:174
+msgid "Warning"
+msgstr "Aviso"
+
+#: src/basketdialog.py:200
+msgid "Critical Packages"
+msgstr "Pacotes Críticos"
+
+#: src/basketdialog.py:212 src/pmwindow.py:145
+msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
+msgstr "Os pacotes já estão instalados.<br> Se continuar, os pacotes serão reinstalados"
+
+#: src/basketdialog.py:214 src/pmwindow.py:147
+msgid "Already Installed Packages"
+msgstr "Pacote(s) já instalado(s)"
+
+#: src/basketdialog.py:215 src/mainwindow.py:152 src/mainwindow.py:155
+#: src/pmwindow.py:148
+msgid "Installed Packages"
+msgstr "Pacote(s) Instalado(s)"
+
+#: src/grouplist.py:49 src/tray.py:69 src/tray.py:201
+msgid "All"
+msgstr "Todos"
+
+#: src/helpdialog.py:33
+msgid "Package Manager Help"
+msgstr "Ajuda do Gerenciador de Pacote"
+
+#: src/main.py:90 src/main.py:91
+msgid "Show main window"
+msgstr "Mostrar tela principal"
+
+#: src/mainwidget.py:155 src/tray.py:129 src/tray.py:135
+msgid "All packages are up to date"
+msgstr "Todos os pacotes estão atualizados"
+
+#: src/mainwidget.py:259
+msgid "Searching..."
+msgstr "Buscando..."
+
+#: src/mainwidget.py:271
+msgid "No results found."
+msgstr "Sem resultados encontrados"
+
+#: src/mainwidget.py:417
+#, fuzzy
+msgid "Select packages"
+msgstr "Todos os Pacotes"
+
+#: src/mainwidget.py:418
+msgid "You must select at least one installed package"
+msgstr ""
+
+#: src/mainwidget.py:437
+msgid "All Updates"
+msgstr "Todas as Atualizações"
+
+#: src/mainwidget.py:438
+msgid "Security Updates"
+msgstr "Atualizações de Segurança"
+
+#: src/mainwidget.py:439
+msgid "Critical Updates"
+msgstr "Atualizações Críticas"
+
+#: src/mainwindow.py:140 src/mainwindow.py:143
+msgid "All Packages"
+msgstr "Todos os Pacotes"
+
+#: src/mainwindow.py:146 src/mainwindow.py:149
+msgid "Installable Packages"
+msgstr "Pacotes Instaláveis"
+
+#: src/mainwindow.py:158 src/mainwindow.py:161
+msgid "Updates"
+msgstr "Atualizações"
+
+#: src/mainwindow.py:206
+msgid "Calculating dependencies..."
+msgstr "Calculando dependências..."
+
+#: src/mainwindow.py:210
+msgid "Currently your basket is empty."
+msgstr "Sua cesta está atualmente vazia."
+
+#: src/morewidgets.py:146 src/progressdialog.py:62 src/slide.py:50
+#: src/tray.py:129 src/tray.py:133 src/tray.py:135
+msgid "Package Manager"
+msgstr "Gerenciador de Pacotes"
+
+#: src/operationmanager.py:41
+msgid "installing"
+msgstr "instalando"
+
+#: src/operationmanager.py:42
+msgid "removing"
+msgstr "removendo"
+
+#: src/operationmanager.py:43 src/progressdialog.py:78
+msgid "extracting"
+msgstr "extraindo"
+
+#: src/operationmanager.py:44 src/progressdialog.py:78
+msgid "configuring"
+msgstr "configurando"
+
+#: src/operationmanager.py:141
+msgid "downloading"
+msgstr "fazendo download"
+
+#: src/packagedelegate.py:66
+msgid "critical"
+msgstr "critico"
+
+#: src/packagedelegate.py:67
+msgid "security"
+msgstr "segurança"
+
+#: src/packagedelegate.py:83
+msgid "Description:"
+msgstr "Descrição:"
+
+#: src/packagedelegate.py:84
+msgid "Website:"
+msgstr "Site:"
+
+#: src/packagedelegate.py:85
+msgid "Release:"
+msgstr "Lançamento:"
+
+#: src/packagedelegate.py:86
+msgid "Repository:"
+msgstr "repositório:"
+
+#: src/packagedelegate.py:87
+msgid "Package Size:"
+msgstr "Tamanho do Pacote:"
+
+#: src/packagedelegate.py:88
+msgid "Installed Version:"
+msgstr "Versão Instalada:"
+
+#: src/packagedelegate.py:321
+msgid "Details"
+msgstr "Detalhes"
+
+#: src/packageview.py:24
+msgid "Select all packages in this group"
+msgstr "Selecione todos os pacotes nesse grupo"
+
+#: src/pm-install.py:49
+#, fuzzy
+msgid "%prog packages_to_install"
+msgstr "%prog packages_to_install"
+
+#: src/pm-install.py:65
+msgid "Hide summary screen"
+msgstr ""
+
+#: src/pmutils.py:73 src/statemanager.py:249
+msgid "Network Error"
+msgstr "Erro de Conectividade de Rede"
+
+#: src/pmutils.py:74 src/statemanager.py:250
+msgid "Please check your network connections and try again."
+msgstr "Por favor cheque as conexões de rede e tente novamente."
+
+#: src/pmutils.py:76
+msgid "Authorization Error"
+msgstr "Erro de Autorização"
+
+#: src/pmutils.py:77
+msgid "You are not authorized for this operation."
+msgstr "Você não está autorizado para executar essa operação."
+
+#: src/pmutils.py:80
+#, python-format
+msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
+msgstr "Pacote <b>%s</b> não encontrado no(s) repositório(s).<br>Ele pode ter sido atualizado ou removido do(s) repositório(s).<br>Por Favor tente atualizar as informações dos repositórios"
+
+#: src/pmutils.py:85
+msgid "Mixing file names and package names not supported yet."
+msgstr ""
+
+#: src/pmutils.py:88
+#, python-format
+msgid "File <b>%s</b> doesn't exists."
+msgstr ""
+
+#: src/pmutils.py:91
+msgid "Another instance of PiSi is running. Only one instance is allowed."
+msgstr ""
+
+#: src/pmutils.py:125
+msgid "Do you want to continue ?"
+msgstr "Você quer continuar ?"
+
+#: src/progressdialog.py:74
+#, fuzzy
+msgid "<p align='right'>%1 %</p>"
+msgstr "<p align='right'>%1 %</p>"
+
+#: src/progressdialog.py:75
+#, python-format
+msgid "Operation - %1%"
+msgstr "Operação - %1%"
+
+#: src/progressdialog.py:82
+msgid "Downloading package list of %1"
+msgstr "Fazendo download da lista de pacotes de %1"
+
+#: src/progressdialog.py:84
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: src/progressdialog.py:89
+#, fuzzy
+msgid "[%1 / %2]"
+msgstr "[%1 / %2]"
+
+#: src/progressdialog.py:96
+#, fuzzy
+msgid "%1 / %2, %3"
+msgstr "%1 / %2, %3"
+
+#: src/progressdialog.py:113
+msgid "Preparing PiSi..."
+msgstr "Preparando o PiSi..."
+
+#: src/progressdialog.py:124
+msgid "<b>Cancelling operation...</b>"
+msgstr "<b>Cancelando a operação...</b>"
+
+#: src/settingsdialog.py:165
+msgid "Open Directory"
+msgstr "Abrir Diretório"
+
+#: src/settingsdialog.py:175
+msgid "All the cached packages will be deleted. Are you sure? "
+msgstr "Todos os pacotes em cache serão deletados. Você tem certeza?"
+
+#: src/settingsdialog.py:253
+msgid "Not a valid repository name"
+msgstr "Não é um nome de repositório válido"
+
+#: src/settingsdialog.py:258
+msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
+msgstr "<qt>Endereço de repositório deveria terminar com o sufixo xml, xml.bz2. ou xz<p>Por favor tente novamente.</qt>"
+
+#: src/statemanager.py:85 src/statemanager.py:86
+msgid "Installing Package(s)"
+msgstr "Instalando Pacote(s)"
+
+#: src/statemanager.py:87
+msgid "Removing Package(s)"
+msgstr "Removendo Pacote(s)"
+
+#: src/statemanager.py:88
+msgid "Upgrading Package(s)"
+msgstr "Atualizando Pacote(s)"
+
+#: src/statemanager.py:89
+msgid "Applying Repository Changes"
+msgstr "Aplicando Modificações do Repositório"
+
+#: src/statemanager.py:90
+msgid "Updating Repository"
+msgstr "Atualizando Repositório"
+
+#: src/statemanager.py:91
+msgid "Updating Repository(s)"
+msgstr "Atualizando Repositório(s)"
+
+#: src/statemanager.py:94
+msgid "installed"
+msgstr "instalado"
+
+#: src/statemanager.py:95
+msgid "removed"
+msgstr "removido"
+
+#: src/statemanager.py:96
+msgid "upgraded"
+msgstr "atualizado"
+
+#: src/statemanager.py:97
+msgid "modified"
+msgstr "modificado"
+
+#: src/statemanager.py:101
+msgid "Install Package(s)"
+msgstr "Instalar Pacote(s)"
+
+#: src/statemanager.py:102
+msgid "Remove Package(s)"
+msgstr "Removendo Pacote(s)"
+
+#: src/statemanager.py:103
+msgid "Upgrade Package(s)"
+msgstr "Atualizando Pacote(s)"
+
+#: src/statemanager.py:104
+msgid "Select Operation"
+msgstr "Selecione Operação"
+
+#: src/statemanager.py:115 src/statemanager.py:120
+msgid "%1 new package(s) have been installed succesfully."
+msgstr "%1 novo(s) pacote(s) foi(ram) instalado(s) com sucesso."
+
+#: src/statemanager.py:116
+msgid "%1 package(s) have been upgraded succesfully."
+msgstr "%1 pacote(s) foi(ram) atualizado(s) com sucesso."
+
+#: src/statemanager.py:121
+msgid "%1 package(s) have been removed succesfully."
+msgstr "%1 pacote(s) foi(ram) removido(s) com sucesso."
+
+#: src/statemanager.py:123
+msgid "%1 package(s) have been modified succesfully."
+msgstr "%1 pacote(s) modificado(s) com sucesso."
+
+#: src/statemanager.py:126
+msgid "You have selected the following package(s) to install:"
+msgstr "Você selecionou o(s) seguinte(s) pacote(s) para instalar:"
+
+#: src/statemanager.py:127
+msgid "You have selected the following package(s) to removal:"
+msgstr "Você selecionou o(s) seguinte(s) pacote(s) para remover:"
+
+#: src/statemanager.py:128
+msgid "You have selected the following package(s) to upgrade:"
+msgstr "Você selecionou o(s) seguinte(s) pacote(s) para atualização:"
+
+#: src/statemanager.py:129
+msgid "You have selected the following package(s) to modify:"
+msgstr "Você selecionou o(s) seguinte(s) pacote(s) para modificar:"
+
+#: src/statemanager.py:132
+msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+msgstr "Dependências extras para o(s) pacote(s) selecionado(s) que também serão instaladas:"
+
+#: src/statemanager.py:133
+msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
+msgstr "Dependências reversas para o(s) pacote(s) selecionado(s) que também serão removidas:"
+
+#: src/statemanager.py:134
+msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
+msgstr "Dependências extras para o(s) pacote(s) selecionado(s) que também serão atualizadas:"
+
+#: src/statemanager.py:135
+msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
+msgstr "Dependências extras para o(s) pacote(s) selecionado(s) que também serão atualizadas:"
+
+#: src/statemanager.py:174
+msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
+msgstr "Atualmente existem <b>%1</b> pacote(s) selecionado(s) do total de <b>%2</b> de tamanho"
+
+#: src/statemanager.py:177
+msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
+msgstr "com <b>%1</b> dependências reversas do total <b>%2</b> de tamanho "
+
+#: src/statemanager.py:179
+msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
+msgstr "com <b>%1</b> dependências extras do total <b>%2</b> de tamanho "
+
+#: src/statemanager.py:180
+msgid "in your basket."
+msgstr "na sua cesta."
+
+#: src/statemanager.py:215
+msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
+msgstr "Pacotes selecionados [%1] estão em conflito uns com os outros. Esses pacotes não podem ser instalados juntos."
+
+#: src/statemanager.py:216 src/statemanager.py:224
+msgid "Conflict Error"
+msgstr "Erro de Conflito"
+
+#: src/statemanager.py:220
+msgid "The following packages conflicts:\n"
+msgstr "Os seguintes conflitos de pacotes:\n"
+
+#: src/statemanager.py:222
+msgid "%1 conflicts with: [%2]\n"
+msgstr "%1 conflita com: [%2]\n"
+
+#: src/statemanager.py:223
+msgid ""
+"\n"
+"Remove the conflicting packages from the system?"
+msgstr ""
+"\n"
+"Remover pacotes conflitantes do sistema?"
+
+#: src/tray.py:133 src/tray.py:208
+msgid "There are <b>%1</b> updates available!"
+msgstr "Existem <b>%1</b> atualizações disponíveis!"
+
+#: src/tray.py:189
+msgid "Update"
+msgstr "Atualizar"
+
+#: src/tray.py:209
+msgid "Ignore"
+msgstr "Ignorar"
+
+#: src/tray.py:209
+msgid "Show Updates"
+msgstr "Exibir Atualizações"
+
+#: src/webdialog.py:183
+msgid "Package Files"
+msgstr "Arquivos do Pacote"
+
+#~ msgid " kb/s"
+#~ msgstr " kb/s"
+
+#~ msgid "Upgradable Packages"
+#~ msgstr "Mostrar Pacotes Atualizáveis"
+
+#~ msgid "Modify Package(s)"
+#~ msgstr "Removendo Pacote(s)"
+
+#~ msgid "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
+#~ msgstr "http://paketler.pardus.org.tr/pardus-2009/pisi-index.xml.bz2"
+
+#~ msgid "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+#~ msgstr "http://paketler.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+
+#~ msgid ""
+#~ "Installed Packages\n"
+#~ "\n"
+#~ msgstr "Instalar Pacote(s)"
+
+#~ msgid "-- / --"
+#~ msgstr "-- / --"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">-- / --, -- KB/s</span></p></body></html>"
+
+#~ msgid "File"
+#~ msgstr "Arquivo"
+
+#~ msgid "Help"
+#~ msgstr "Ajuda"
+
+#~ msgid "Quit"
+#~ msgstr "Sair"
+
+#~ msgid "There are %1 updates available!"
+#~ msgstr "Existem %1 atualizações disponíveis!"
+
+#~ msgid "Summary"
+#~ msgstr "Resumo"
+
+#~ msgid "%p%"
+#~ msgstr "%p%"
+
+#~ msgid "Succesfully finished installing packages"
+#~ msgstr "Finalizou com sucesso a instalação dos pacotes"
+
+#~ msgid "Succesfully finished installing %1"
+#~ msgstr "Finalizou com sucesso a instalação de %1"
+
+#~ msgid "Use proxy server"
+#~ msgstr "Usar servidor de proxy"
+
+#~ msgid "padding-left:15px;"
+#~ msgstr "padding-left:15px;"
+
+#~ msgid "Show Installed Packages"
+#~ msgstr "Mostrar Pacotes Instalados"
+
+#~ msgid "Close"
+#~ msgstr "Fechar"
+
+#~ msgid "Status:"
+#~ msgstr "Estado:"
+
+#~ msgid "Operation:"
+#~ msgstr "Operação:"
+
+#~ msgid "--:--:--"
+#~ msgstr "--:--:--"
+
+#~ msgid "--  / --"
+#~ msgstr "-- / --"
+
+#~ msgid "Time remaining:"
+#~ msgstr "Tempo para finalização:"
+
+#~ msgid "<h3>Preparing PiSi...</h3>"
+#~ msgstr "<h3>Preparando o PiSi...</h3>"
+
+#~ msgid "Operation"
+#~ msgstr "Operações"
+
+#~ msgid "Toggler for selection all packages in Package List"
+#~ msgstr "Chave para selecionar todos os pacotes na Lista de Pacotes"
+
+#~ msgid "Action Button for current states action"
+#~ msgstr "Botão de ação para a ação atual"
+
+#~ msgid "Search"
+#~ msgstr "Buscar"
+
+#~ msgid "Search Button"
+#~ msgstr "Botão de Busca"
+
+#~ msgid "Use Desktop Enviorenment's settings"
+#~ msgstr "Usar configurações do Ambiente do Desktop"
+
+#~ msgid "Use manual settings"
+#~ msgstr "Usar configurações manuais"
+
+#~ msgid "No proxy server"
+#~ msgstr "Nenhum servidor de proxy"
+
+#~ msgid "Package Details"
+#~ msgstr "Detalhes do Pacote"
+
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "Servidor do AppInfo não está disponível\n"
+#~ "Por favor verifique sua conexão de internet"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Digite para filtrar arquivos"
+
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
+
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Você pode iniciar a nova aplicação instalado com um clique duplo na lista abaixo ou depois através do menu de aplicativos."
+
+#~ msgid "Operation Summary"
+#~ msgstr "Resumo da Operação"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Cancelar"
+
+#~ msgid "&OK"
+#~ msgstr "&OK"
+
+#~ msgid "&Help"
+#~ msgstr "&Ajuda"
+
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
+
+#, fuzzy
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "Usar esse servidor de proxy para todos os protocolos"
+
+#, fuzzy
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-weight:600;\">-- / --, -- KB/s</span></p></body></html>"
+
+#~ msgid "FTP proxy server:"
+#~ msgstr "Servidor de Proxy FTP:"
+
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "Servidor de Proxy HTTPS:"
+
+#~ msgid "Port:"
+#~ msgstr "Porta:"
+
+#~ msgid "HTTP proxy server:"
+#~ msgstr "Servidor de Proxy HTTP:"
+
+#, fuzzy
+#~ msgid "Use Proxy"
+#~ msgstr "&Proxy"
+
+#~ msgid "&Repositories"
+#~ msgstr "&Repositórios"
+
+#~ msgid "Move &Down"
+#~ msgstr "Mover para &Baixo"
+
+#~ msgid "Move &Up"
+#~ msgstr "Mover para &Cima"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Remover Repositório"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "&Adicionar Novo Repositório"
+
+#~ msgid "C&ache"
+#~ msgstr "C&ache"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Usar limite de banda :"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Limite de Banda"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "&Limpar cache do disco agora"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Limpar o cache do disco vai remover todos os downloads de softwares. Isso não remove os aplicativos instalados ou afeta a estabilidade do seu sistema."
+
+#~ msgid "Select..."
+#~ msgstr "Selecionar..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Diretório do cache atual:"
+
+#~ msgid " Mib"
+#~ msgstr " Mib"
+
+#~ msgid "Unlimited"
+#~ msgstr "Ilimitado"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Tamanho máximo de cache:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "&Usar cache de disco para download de aplicativos"
+
+#, fuzzy
+#~ msgid "Cache Limit"
+#~ msgstr "Lista de Pacotes"
+
+#~ msgid "&General Settings"
+#~ msgstr "&Configurações Padrões"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Instalar atualizações automaticamente"
+
+#~ msgid " min"
+#~ msgstr " min"
+
+#~ msgid "Check interval :"
+#~ msgstr "Intervalo de checagem :"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Habilitar checagem de atualizações &periódicas"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Ocultar o ícone de bandeja do sistema quando não houver nenhuma atualização."
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Habilitar ícone de bandeja do sistema"
+
+#~ msgid "System tray icon"
+#~ msgstr "Ícone de bandeja do sistema"
+
+#~ msgid "Show Component information "
+#~ msgstr "Mostrar informação do componente "
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Mostrar apenas aplicativos da área de trabalho"
+
+#~ msgid "Package list"
+#~ msgstr "Lista de pacote"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Configurações do Gerenciador de Pacotes"
+
+#~ msgid "Repository Address"
+#~ msgstr "Endereço do Repositório"
+
+#~ msgid "Repository Name"
+#~ msgstr "Nome do Repositório"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Nome do Repositório, ex. <b>pardus-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Adicionar Novo Repositório"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#, fuzzy
+#~ msgid "Cancel"
+#~ msgstr "&Cancelar"
+
+#, fuzzy
+#~ msgid "Install"
+#~ msgstr "instalado"
+
+#, fuzzy
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Configurações do Gerenciador de Pacotes"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Verificar por atualizações"
+
+#~ msgid "Show Basket"
+#~ msgstr "Mostrar Cesta"
+
+#~ msgid "Package List"
+#~ msgstr "Lista de Pacotes"
+
+#~ msgid "Category Panel"
+#~ msgstr "Painel de Categorias"
+
+#~ msgid "Update Types"
+#~ msgstr "Tipos de Atualizações"
+
+#~ msgid "Click to search"
+#~ msgstr "Clique para Buscar"
+
+#~ msgid "Search Bar"
+#~ msgstr "Barra de Busca"
+
+#~ msgid "Settings"
+#~ msgstr "Configurações"
+
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</"
+
+#~ msgid "Download Size:"
+#~ msgstr "Tamanho para Download:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Tamanho Total:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Pacote(s) selecionado(s) para instalar:"
+
+#~ msgid "Basket"
+#~ msgstr "Cesta"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Navegadores da Internet"
+
+#~ msgid "Application"
+#~ msgstr "Aplicativos"
+
+#~ msgid "Add/Remove/Update Packages"
+#~ msgstr "Adicionar/Remover/Atualizar Pacotes"
+
+#~ msgid "PiSi Package Manager Graphical User Interface"
+#~ msgstr "Interface Gráfica de Usuário do Gerenciador de Pacotes PiSi"
+
+#~ msgid "Add or Remove Software"
+#~ msgstr "Adicionar ou Remover Software"
