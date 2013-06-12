@@ -1,0 +1,741 @@
+# Croatian translation for package-manager package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the package-manager package.
+# Ivica Kolić <ikoli@yahoo.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: package-manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-12 00:09+0300\n"
+"PO-Revision-Date: 2011-06-09 20:47+0200\n"
+"Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
+"Language-Team: Croatian <ikoli@yahoo.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Croatian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Country: CROATIA\n"
+
+#: src/about.py:27
+msgid "(c) 2009-2010 TUBITAK/UEKAE"
+msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#: src/about.py:36
+msgid "Onur Aslan <aslanon>"
+msgstr ""
+
+#: src/about.py:36
+msgid "Qt Designer, New Developer"
+msgstr ""
+
+#: src/about.py:37
+msgid "Gökmen Göksel"
+msgstr "Gökmen Göksel"
+
+#: src/about.py:37
+#, fuzzy
+msgid "Old Developer"
+msgstr "Razvijatelj"
+
+#: src/about.py:38
+msgid "Faik Uygur"
+msgstr "Faik Uygur"
+
+#: src/about.py:38
+msgid "First Author"
+msgstr "Prvi autor"
+
+#: src/about.py:39
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ivica Kolić"
+
+#: src/about.py:40
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ikoli@yahoo.com"
+
+#: src/basketdialog.py:55
+msgid "Clear Basket"
+msgstr "Očisti košaru"
+
+#: src/basketdialog.py:56
+msgid "Do you want to clear all selections ?"
+msgstr "Želite li očistiti sve odabire?"
+
+#: src/basketdialog.py:70 src/pmutils.py:79 src/pmutils.py:84
+#: src/pmutils.py:87 src/pmutils.py:90 src/pmutils.py:93
+#: src/settingsdialog.py:252 src/settingsdialog.py:257
+msgid "Pisi Error"
+msgstr "Pisi greška"
+
+#: src/basketdialog.py:173
+msgid "You must restart your system for the updates to take effect"
+msgstr "Morate ponovno pokrenuti vaš sistem da bi dopune stupile na snagu."
+
+#: src/basketdialog.py:175 src/basketdialog.py:184
+msgid "Update Requirements"
+msgstr "Zahtjevi dopune"
+
+#: src/basketdialog.py:176
+msgid "Packages Require System Restart"
+msgstr "Paketi zahtjevaju ponovno pokretanje sustava"
+
+#: src/basketdialog.py:182
+msgid "You must restart related system services for the updated package(s) to take effect"
+msgstr "Morate ponovno pokrenuti srodne usluge sustava da dopunjeni paket(i) stupe na snagu"
+
+#: src/basketdialog.py:185
+msgid "Packages Require Service Restart"
+msgstr "Paketi zahtjevaju ponovno pokretanje servisa"
+
+#: src/basketdialog.py:196
+msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
+msgstr "Odabrani paketi smatraju e kritičnima za sustav.Njihovo ukloanjanje može uzrokovati nestabilnost sustava."
+
+#: src/basketdialog.py:199 src/settingsdialog.py:174
+msgid "Warning"
+msgstr "Upozorenje"
+
+#: src/basketdialog.py:200
+msgid "Critical Packages"
+msgstr "Kritični paketi"
+
+#: src/basketdialog.py:212 src/pmwindow.py:145
+msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
+msgstr "Odabrani paketi su već instalirani.<br>Ako nastavite,paketi će biti ponovno instalirani."
+
+#: src/basketdialog.py:214 src/pmwindow.py:147
+msgid "Already Installed Packages"
+msgstr "Već instalirani paketi"
+
+#: src/basketdialog.py:215 src/mainwindow.py:152 src/mainwindow.py:155
+#: src/pmwindow.py:148
+msgid "Installed Packages"
+msgstr "Instalirani paketi"
+
+#: src/grouplist.py:49 src/tray.py:69 src/tray.py:201
+msgid "All"
+msgstr "Sve"
+
+#: src/helpdialog.py:33
+msgid "Package Manager Help"
+msgstr "Pomoć upravitelja paketa"
+
+#: src/main.py:90 src/main.py:91
+msgid "Show main window"
+msgstr "Pokaži glavni prozor"
+
+#: src/mainwidget.py:155 src/tray.py:129 src/tray.py:135
+msgid "All packages are up to date"
+msgstr "Svi paketi su dopunjeni"
+
+#: src/mainwidget.py:259
+msgid "Searching..."
+msgstr "Tražim..."
+
+#: src/mainwidget.py:271
+msgid "No results found."
+msgstr "Nisu nađeni rezultati."
+
+#: src/mainwidget.py:417
+msgid "Select packages"
+msgstr "Odaberite pakete"
+
+#: src/mainwidget.py:418
+msgid "You must select at least one installed package"
+msgstr "Morate odabrati barem jedan instalirani paket."
+
+#: src/mainwidget.py:437
+msgid "All Updates"
+msgstr "Sve dopune"
+
+#: src/mainwidget.py:438
+msgid "Security Updates"
+msgstr "Sigurnosne dopune"
+
+#: src/mainwidget.py:439
+msgid "Critical Updates"
+msgstr "Kritične dopune"
+
+#: src/mainwindow.py:140 src/mainwindow.py:143
+msgid "All Packages"
+msgstr "Svi paketi"
+
+#: src/mainwindow.py:146 src/mainwindow.py:149
+msgid "Installable Packages"
+msgstr "Paketi za instalaciju"
+
+#: src/mainwindow.py:158 src/mainwindow.py:161
+msgid "Updates"
+msgstr "Dopune"
+
+#: src/mainwindow.py:206
+msgid "Calculating dependencies..."
+msgstr "Računam ovisnosti"
+
+#: src/mainwindow.py:210
+msgid "Currently your basket is empty."
+msgstr "Trenutno je vaša košara prazna."
+
+#: src/morewidgets.py:146 src/progressdialog.py:62 src/slide.py:50
+#: src/tray.py:129 src/tray.py:133 src/tray.py:135
+msgid "Package Manager"
+msgstr "Upravitelj paketa"
+
+#: src/operationmanager.py:41
+msgid "installing"
+msgstr "instaliranje"
+
+#: src/operationmanager.py:42
+msgid "removing"
+msgstr "uklanjanje"
+
+#: src/operationmanager.py:43 src/progressdialog.py:78
+msgid "extracting"
+msgstr "raspakiranje"
+
+#: src/operationmanager.py:44 src/progressdialog.py:78
+msgid "configuring"
+msgstr "konfiguriranje"
+
+#: src/operationmanager.py:141
+msgid "downloading"
+msgstr "preuzimanje"
+
+#: src/packagedelegate.py:66
+msgid "critical"
+msgstr "kritično"
+
+#: src/packagedelegate.py:67
+msgid "security"
+msgstr "sigurnost"
+
+#: src/packagedelegate.py:83
+msgid "Description:"
+msgstr "Opis:"
+
+#: src/packagedelegate.py:84
+msgid "Website:"
+msgstr "Web stranica:"
+
+#: src/packagedelegate.py:85
+msgid "Release:"
+msgstr "Izdanje:"
+
+#: src/packagedelegate.py:86
+msgid "Repository:"
+msgstr "Repozitorij:"
+
+#: src/packagedelegate.py:87
+msgid "Package Size:"
+msgstr "Veličina paketa:"
+
+#: src/packagedelegate.py:88
+msgid "Installed Version:"
+msgstr "Instalirana verzija:"
+
+#: src/packagedelegate.py:321
+msgid "Details"
+msgstr "Detalji"
+
+#: src/packageview.py:24
+msgid "Select all packages in this group"
+msgstr "Odaberi sve pakete u ovoj grupi"
+
+#: src/pm-install.py:49
+msgid "%prog packages_to_install"
+msgstr ""
+
+#: src/pm-install.py:65
+msgid "Hide summary screen"
+msgstr "Sakrij zaslon sažetaka"
+
+#: src/pmutils.py:73 src/statemanager.py:249
+msgid "Network Error"
+msgstr "Greška mreže"
+
+#: src/pmutils.py:74 src/statemanager.py:250
+msgid "Please check your network connections and try again."
+msgstr "Molim provjerite vaše mrežne veze i pokušajte ponovno."
+
+#: src/pmutils.py:76
+msgid "Authorization Error"
+msgstr "Pogreška pri autorizaciji"
+
+#: src/pmutils.py:77
+msgid "You are not authorized for this operation."
+msgstr "Nemate dopuštenje za ovu operaciju."
+
+#: src/pmutils.py:80
+#, python-format
+msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
+msgstr "Paket <b>%s</b> nije nađen u repozitorijima.<br>Možda je dopunjen ili uklonjen iz repozitorija.<br>Pokušajte dopuniti repozitorije."
+
+#: src/pmutils.py:85
+msgid "Mixing file names and package names not supported yet."
+msgstr "Miješanje imena datoteka i imena paketa još nije podržano."
+
+#: src/pmutils.py:88
+#, python-format
+msgid "File <b>%s</b> doesn't exists."
+msgstr "Datoteka <b>%s</b> ne postoji."
+
+#: src/pmutils.py:91
+msgid "Another instance of PiSi is running. Only one instance is allowed."
+msgstr ""
+
+#: src/pmutils.py:125
+msgid "Do you want to continue ?"
+msgstr "Želite li nastaviti?"
+
+#: src/progressdialog.py:74
+msgid "<p align='right'>%1 %</p>"
+msgstr "<p poravnaj='desno'>%1 %</p>"
+
+#: src/progressdialog.py:75
+#, python-format
+msgid "Operation - %1%"
+msgstr "Operacija - %1%"
+
+#: src/progressdialog.py:82
+msgid "Downloading package list of %1"
+msgstr "Preuziman listu paketa od %1"
+
+#: src/progressdialog.py:84
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: src/progressdialog.py:89
+msgid "[%1 / %2]"
+msgstr "[%1 / %2]"
+
+#: src/progressdialog.py:96
+msgid "%1 / %2, %3"
+msgstr "%1 / %2, %3"
+
+#: src/progressdialog.py:113
+msgid "Preparing PiSi..."
+msgstr "Pripremam Pisi..."
+
+#: src/progressdialog.py:124
+msgid "<b>Cancelling operation...</b>"
+msgstr "<b>Odgađanje operacije...</b>"
+
+#: src/settingsdialog.py:165
+msgid "Open Directory"
+msgstr "Otvori direktorij"
+
+#: src/settingsdialog.py:175
+msgid "All the cached packages will be deleted. Are you sure? "
+msgstr ""
+
+#: src/settingsdialog.py:253
+msgid "Not a valid repository name"
+msgstr "Nije valjano ime repozitorija"
+
+#: src/settingsdialog.py:258
+msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
+msgstr "<qt>Adresa repozitorija treba završavati sa xml ili xml.bz2 ili xz sufiksom.<p>Molim pokušajte ponovno.</qt>"
+
+#: src/statemanager.py:85 src/statemanager.py:86
+msgid "Installing Package(s)"
+msgstr "Instaliram paket(e)"
+
+#: src/statemanager.py:87
+msgid "Removing Package(s)"
+msgstr "Uklanjam paket(e)"
+
+#: src/statemanager.py:88
+msgid "Upgrading Package(s)"
+msgstr "Dopunjujem paket(e)"
+
+#: src/statemanager.py:89
+msgid "Applying Repository Changes"
+msgstr "Primjenjujem promjene repozitorija"
+
+#: src/statemanager.py:90
+msgid "Updating Repository"
+msgstr "Dopunjujem repozitorij"
+
+#: src/statemanager.py:91
+msgid "Updating Repository(s)"
+msgstr "Dopunjujem repozitorij(e)"
+
+#: src/statemanager.py:94
+msgid "installed"
+msgstr "instalirano"
+
+#: src/statemanager.py:95
+msgid "removed"
+msgstr "uklonjeno"
+
+#: src/statemanager.py:96
+msgid "upgraded"
+msgstr "nadograđeno"
+
+#: src/statemanager.py:97
+msgid "modified"
+msgstr "izmjenjeno"
+
+#: src/statemanager.py:101
+msgid "Install Package(s)"
+msgstr "Instaliraj paket(e)"
+
+#: src/statemanager.py:102
+msgid "Remove Package(s)"
+msgstr "Ukloni paket(e)"
+
+#: src/statemanager.py:103
+msgid "Upgrade Package(s)"
+msgstr "Nadogradi paket(e)"
+
+#: src/statemanager.py:104
+msgid "Select Operation"
+msgstr "Odaberi operaciju"
+
+#: src/statemanager.py:115 src/statemanager.py:120
+msgid "%1 new package(s) have been installed succesfully."
+msgstr "%1 novi paket(i) su uspješno instalirani."
+
+#: src/statemanager.py:116
+msgid "%1 package(s) have been upgraded succesfully."
+msgstr "%1 novi paket(i) su uspješno nadograđeni."
+
+#: src/statemanager.py:121
+msgid "%1 package(s) have been removed succesfully."
+msgstr "%1 novi paket(i) su uspješno uklonjeni."
+
+#: src/statemanager.py:123
+msgid "%1 package(s) have been modified succesfully."
+msgstr "%1 novi paket(i) su uspješno izmjenjeni."
+
+#: src/statemanager.py:126
+msgid "You have selected the following package(s) to install:"
+msgstr "Odabrali ste slijedeći paket(e) za instaliranje:"
+
+#: src/statemanager.py:127
+msgid "You have selected the following package(s) to removal:"
+msgstr "Odabrali ste slijedeći paket(e) za uklanjanje:"
+
+#: src/statemanager.py:128
+msgid "You have selected the following package(s) to upgrade:"
+msgstr "Odabrali ste slijedeći paket(e) za nadogradnju:"
+
+#: src/statemanager.py:129
+msgid "You have selected the following package(s) to modify:"
+msgstr "Odabrali ste slijedeći paket(e) za izmjenu:"
+
+#: src/statemanager.py:132
+msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+msgstr "Dodatne ovisnosti odabranog paketa koje će također biti instalirane:"
+
+#: src/statemanager.py:133
+msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
+msgstr "Obrnute zavisnosti odabranog paketa koje će također će biti uklonjene:"
+
+#: src/statemanager.py:134
+msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
+msgstr "Dodatne ovisnosti odabranog paketa koje će također biti nadograđene:"
+
+#: src/statemanager.py:135
+msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
+msgstr "Dodatne ovisnosti odabranog paketa koje će također biti izmjenjene:"
+
+#: src/statemanager.py:174
+msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
+msgstr "Trenutno je <b>%1</b> odabranih paketa ukupne <b>%2</b>veličine."
+
+#: src/statemanager.py:177
+msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
+msgstr ""
+
+#: src/statemanager.py:179
+msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
+msgstr "sa <b>%1</b> dodatnim ovisnostima ukupne <b>%2</b> veličine "
+
+#: src/statemanager.py:180
+msgid "in your basket."
+msgstr "u vašoj košari."
+
+#: src/statemanager.py:215
+msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
+msgstr "Odabrani paketi [%1] su u međusobnom konfliktu.ovi paketi ne mogu biti instalirani zajedno."
+
+#: src/statemanager.py:216 src/statemanager.py:224
+msgid "Conflict Error"
+msgstr " Greška sukoba"
+
+#: src/statemanager.py:220
+msgid "The following packages conflicts:\n"
+msgstr "Sljedeći paketi se sukobljuju:\n"
+
+#: src/statemanager.py:222
+msgid "%1 conflicts with: [%2]\n"
+msgstr "% 1 se sukobi sa: [2%]\n"
+
+#: src/statemanager.py:223
+msgid ""
+"\n"
+"Remove the conflicting packages from the system?"
+msgstr ""
+"\n"
+"Ukloni suprotstavljene pakete iz sustava?"
+
+#: src/tray.py:133 src/tray.py:208
+msgid "There are <b>%1</b> updates available!"
+msgstr "Dostupne <b>%1</b> su nadogradnje!"
+
+#: src/tray.py:189
+msgid "Update"
+msgstr "Dopuni"
+
+#: src/tray.py:209
+msgid "Ignore"
+msgstr "Ignoriraj"
+
+#: src/tray.py:209
+msgid "Show Updates"
+msgstr "Pokaži dopune"
+
+#: src/webdialog.py:183
+msgid "Package Files"
+msgstr "Datoteke paketa"
+
+#~ msgid "Package Details"
+#~ msgstr "Detalji paketa"
+
+#~ msgid "&Ok"
+#~ msgstr "&Ok"
+
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "MOžete pokrenuti novoinstalirani program dvostrukim klikom na donju listu ili kasnije iz izbornika programa."
+
+#~ msgid "Operation Summary"
+#~ msgstr "Sažetak operacije"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Odgodi"
+
+#~ msgid "&OK"
+#~ msgstr "&OK"
+
+#~ msgid "&Help"
+#~ msgstr "&Pomoć"
+
+#~ msgid "&Proxy"
+#~ msgstr "&Proxy"
+
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Koristi ovaj proxy poslužitelj za sve protokole</a>"
+
+#~ msgid "Password:"
+#~ msgstr "Lozinka:"
+
+#~ msgid "Username:"
+#~ msgstr "Korisničko ime:"
+
+#~ msgid "Domain:"
+#~ msgstr "Domena:"
+
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP proxy poslužitelj:"
+
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS proxy poslužitelj:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP proxy poslužitelj:"
+
+#~ msgid "Use Proxy"
+#~ msgstr "Koristi proxy"
+
+#~ msgid "&Repositories"
+#~ msgstr "&Repozitoriji"
+
+#~ msgid "Move &Down"
+#~ msgstr "Pomakni &dolje"
+
+#~ msgid "Move &Up"
+#~ msgstr "Pomakni &gore"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Ukloni repozitorij"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "&Dodaj novi repozitorij"
+
+#~ msgid "C&ache"
+#~ msgstr "P&redmemorija"
+
+#~ msgid " kB/s"
+#~ msgstr " kB/s"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Koristi ograničenje propusnosti:"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Ograničenje propusnosti"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "O&čisti predmemoriju diska sada"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Čišćenje predmemorije diska će ukloniti sav preuzeti softwere. To se neće izbrisati instalirani softwere ili utjecati na stablinost vašeg sustava."
+
+#~ msgid "Open"
+#~ msgstr "Otvori"
+
+#~ msgid "Select..."
+#~ msgstr "Odaberi..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Trenutni direktorij predmemorije"
+
+#~ msgid " Mib"
+#~ msgstr " Mib"
+
+#~ msgid "Unlimited"
+#~ msgstr "Neograničeno"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Maksimalna veličina predmemorije"
+
+#~ msgid "&General Settings"
+#~ msgstr "&Osnovne postavke"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Instaliraj dopune automatski"
+
+#~ msgid " min"
+#~ msgstr " min"
+
+#~ msgid "Check interval :"
+#~ msgstr "Interval provjere:"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Omogući &povremenu provjeru dopuna"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Sakrij traku sustava ako nema dopuna"
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Omogući traku sustava"
+
+#~ msgid "System tray icon"
+#~ msgstr "Ikona trake sustava"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Prikaži oznake vrste paketa"
+
+#~ msgid "Show Component information "
+#~ msgstr "Prikaži informacije o komponenti"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&Spokaži samo programe radne površine"
+
+#~ msgid "Package list"
+#~ msgstr "Lista paketa"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Postavke upravitelja paketa"
+
+#~ msgid "Repository Address"
+#~ msgstr "Adresa repozitorija"
+
+#~ msgid "Repository Name"
+#~ msgstr "Ime repozitorija"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Ime repozitorija,npr. <b>pardus-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Dodaj novi repozitorij"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Preview"
+#~ msgstr "Pregled"
+
+#~ msgid "Cancel"
+#~ msgstr "Odgodi"
+
+#~ msgid "Install"
+#~ msgstr "Instaliraj"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Slijedeći paketi su izabrani za instalaciju.Želite li instalirati te pakete?"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Upravitelj paketa brza instalacija"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Provjeri za dopune"
+
+#~ msgid "Show Basket"
+#~ msgstr "Pokaži košaru"
+
+#~ msgid "Package List"
+#~ msgstr "Lista paketa"
+
+#~ msgid "Category Panel"
+#~ msgstr "Ploča kategorija"
+
+#~ msgid "Update Types"
+#~ msgstr " Vrste dopuna"
+
+#~ msgid "Click to search"
+#~ msgstr "Klikni za traženje"
+
+#~ msgid "Search Bar"
+#~ msgstr "Traka traženja"
+
+#~ msgid "Settings"
+#~ msgstr "Postavke"
+
+#~ msgid "Form"
+#~ msgstr "Forma"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</"
+
+#~ msgid "Download Size:"
+#~ msgstr "Veličina preuzimanja:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Ukupna veličina:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Odabrani paket(i) za instaliranje:"
+
+#~ msgid "Basket"
+#~ msgstr "Košara"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Tarayıcı"
+
+#~ msgid "Application"
+#~ msgstr "Program"
+
+#~ msgid "Add/Remove/Update Packages"
+#~ msgstr "Dodaj/ukloni/dopuni pakete"
+
+#~ msgid "PiSi Package Manager Graphical User Interface"
+#~ msgstr "Pisi upravitelj paketa grafičko sučelje"
+
+#~ msgid "Add or Remove Software"
+#~ msgstr "Dodaj ili ukloni software"

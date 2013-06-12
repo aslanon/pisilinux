@@ -1,0 +1,64 @@
+/*Onur ASLAN <slnnronur@gmail.com>*/
+
+div,ul,ol,li{ 
+	margin:0;
+	padding:0;
+	font-size: 10px;
+	font-size: 1em;
+	font-size: 100%;
+}
+
+#slideshow {
+	background: rgba(255, 255, 255, 0.1);
+    margin: auto;
+	display: block;
+	width: 658px;
+    height: 250px;
+	border: 1px solid rgba(0,0,0,0.6);
+	border-radius: 5px;
+	box-shadow: 0 5px 20px #000;
+	position: relative;
+	overflow: scroll;
+	z-index: 5;
+}
+#slideshow ul#nav {
+	display: none;
+	position: relative;
+	top: 160px;
+	z-index: 15;
+}
+#slideshow ul#nav li#prev {
+	float: left;
+    margin: -80px 10px 0 10px;
+}
+#slideshow ul#nav li#next {
+	float: right;
+    margin: -80px 10px 0 10px;
+}
+#slideshow ul#nav li a {
+	outline: none;
+	display: block;
+	width: 80px;
+	height: 80px;
+	text-indent: -9999px;
+}
+#slideshow ul#nav li#prev a {
+	background: url("prev.png");
+}
+#slideshow ul#nav li#next a {
+	background: url("next.png");
+}
+#slideshow ul#slides {
+	list-style: none;
+}
+#slideshow ul#slides li {
+	margin: 0px 0px 0px 0px;
+}
+#slideshow img {
+	display: block;
+	width: 638px;
+    height: 230px;
+	border: 1px solid rgba(255,255,255,0.2);
+	margin: 9px;
+	border-radius: 4px;
+}

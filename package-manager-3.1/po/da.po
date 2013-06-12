@@ -1,0 +1,895 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Peter Lyberth <peterjensen84@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: da\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-12 00:09+0300\n"
+"PO-Revision-Date: 2009-09-08 11:38+0200\n"
+"Last-Translator: Peter Lyberth <peterjensen84@gmail.com>\n"
+"Language-Team: Danish <pardus-translators@pardus.org.tr>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/about.py:27
+msgid "(c) 2009-2010 TUBITAK/UEKAE"
+msgstr "(c) 2009-2011 TUBITAK/UEKAE"
+
+#: src/about.py:36
+msgid "Onur Aslan <aslanon>"
+msgstr ""
+
+#: src/about.py:36
+msgid "Qt Designer, New Developer"
+msgstr ""
+
+#: src/about.py:37
+msgid "Gökmen Göksel"
+msgstr "Gökmen Göksel"
+
+#: src/about.py:37
+#, fuzzy
+msgid "Old Developer"
+msgstr "Udvilker"
+
+#: src/about.py:38
+msgid "Faik Uygur"
+msgstr "Faik Uygur"
+
+#: src/about.py:38
+msgid "First Author"
+msgstr "Første Udvikler"
+
+#: src/about.py:39
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Jesper Lindeberg"
+
+#: src/about.py:40
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "jlindeberg@gmail.com"
+
+#: src/basketdialog.py:55
+msgid "Clear Basket"
+msgstr "Tøm Kurv"
+
+#: src/basketdialog.py:56
+msgid "Do you want to clear all selections ?"
+msgstr "Vil du nulstille alle valgte ?"
+
+#: src/basketdialog.py:70 src/pmutils.py:79 src/pmutils.py:84
+#: src/pmutils.py:87 src/pmutils.py:90 src/pmutils.py:93
+#: src/settingsdialog.py:252 src/settingsdialog.py:257
+msgid "Pisi Error"
+msgstr "Pisi Fejl"
+
+#: src/basketdialog.py:173
+msgid "You must restart your system for the updates to take effect"
+msgstr "Du skal genstarte dit system før opdateringerne vil træde i kraft"
+
+#: src/basketdialog.py:175 src/basketdialog.py:184
+msgid "Update Requirements"
+msgstr "Updaterings Krav "
+
+#: src/basketdialog.py:176
+msgid "Packages Require System Restart"
+msgstr "Pakker Kræver System Genstart"
+
+#: src/basketdialog.py:182
+msgid "You must restart related system services for the updated package(s) to take effect"
+msgstr "Du skal genstarte relaterede system tjenester for at de opdaterede pakker træder i kraft"
+
+#: src/basketdialog.py:185
+msgid "Packages Require Service Restart"
+msgstr "Pakker Kræver Tjeneste Genstart"
+
+#: src/basketdialog.py:196
+msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
+msgstr "Valgte pakker betragtes som kritiske for systemet. Fjernelse af dem kan få dit system til at være ubrugeligt."
+
+#: src/basketdialog.py:199 src/settingsdialog.py:174
+msgid "Warning"
+msgstr "Advarsel"
+
+#: src/basketdialog.py:200
+msgid "Critical Packages"
+msgstr "Kritiske Pakker"
+
+#: src/basketdialog.py:212 src/pmwindow.py:145
+msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
+msgstr "Valgte pakker er allerede installeret.<br>Hvis du fortsætter vil pakkerne blive installeret igen"
+
+#: src/basketdialog.py:214 src/pmwindow.py:147
+msgid "Already Installed Packages"
+msgstr "Allerede Installerede Pakker"
+
+#: src/basketdialog.py:215 src/mainwindow.py:152 src/mainwindow.py:155
+#: src/pmwindow.py:148
+msgid "Installed Packages"
+msgstr "Installerede Pakker"
+
+#: src/grouplist.py:49 src/tray.py:69 src/tray.py:201
+msgid "All"
+msgstr "Alle"
+
+#: src/helpdialog.py:33
+msgid "Package Manager Help"
+msgstr "Hjælp til Pakkehåndtering"
+
+#: src/main.py:90 src/main.py:91
+msgid "Show main window"
+msgstr "Vis hoved vinduet"
+
+#: src/mainwidget.py:155 src/tray.py:129 src/tray.py:135
+msgid "All packages are up to date"
+msgstr "Alle pakker er opdateret"
+
+#: src/mainwidget.py:259
+msgid "Searching..."
+msgstr "Søger..."
+
+#: src/mainwidget.py:271
+msgid "No results found."
+msgstr "Ingen resultater fundet."
+
+#: src/mainwidget.py:417
+msgid "Select packages"
+msgstr "Vælg pakker"
+
+#: src/mainwidget.py:418
+msgid "You must select at least one installed package"
+msgstr "Du skal vælge mindst en installeret pakke"
+
+#: src/mainwidget.py:437
+msgid "All Updates"
+msgstr "Alle Opdateringer"
+
+#: src/mainwidget.py:438
+msgid "Security Updates"
+msgstr "Sikkerhedsopdateringer"
+
+#: src/mainwidget.py:439
+msgid "Critical Updates"
+msgstr "Kritiske Opdateringer"
+
+#: src/mainwindow.py:140 src/mainwindow.py:143
+msgid "All Packages"
+msgstr "Alle Pakker"
+
+#: src/mainwindow.py:146 src/mainwindow.py:149
+msgid "Installable Packages"
+msgstr "Installerbare Pakker"
+
+#: src/mainwindow.py:158 src/mainwindow.py:161
+msgid "Updates"
+msgstr "Opdateringer"
+
+#: src/mainwindow.py:206
+msgid "Calculating dependencies..."
+msgstr "Beregner afhængigheder"
+
+#: src/mainwindow.py:210
+msgid "Currently your basket is empty."
+msgstr "Din kurv er i øjeblikket tom."
+
+#: src/morewidgets.py:146 src/progressdialog.py:62 src/slide.py:50
+#: src/tray.py:129 src/tray.py:133 src/tray.py:135
+msgid "Package Manager"
+msgstr "Pakke Håndtering"
+
+#: src/operationmanager.py:41
+msgid "installing"
+msgstr "installerer"
+
+#: src/operationmanager.py:42
+msgid "removing"
+msgstr "fjerner"
+
+#: src/operationmanager.py:43 src/progressdialog.py:78
+msgid "extracting"
+msgstr "udpakker"
+
+#: src/operationmanager.py:44 src/progressdialog.py:78
+msgid "configuring"
+msgstr "konfigurerer"
+
+#: src/operationmanager.py:141
+msgid "downloading"
+msgstr "downloader"
+
+#: src/packagedelegate.py:66
+msgid "critical"
+msgstr "kritisk"
+
+#: src/packagedelegate.py:67
+msgid "security"
+msgstr "sikkerhed"
+
+#: src/packagedelegate.py:83
+msgid "Description:"
+msgstr "Beskrivelse:"
+
+#: src/packagedelegate.py:84
+msgid "Website:"
+msgstr "Hjemmeside:"
+
+#: src/packagedelegate.py:85
+msgid "Release:"
+msgstr "Udgivelse:"
+
+#: src/packagedelegate.py:86
+msgid "Repository:"
+msgstr "Pakkearkiv:"
+
+#: src/packagedelegate.py:87
+msgid "Package Size:"
+msgstr "Pakke størrelse:"
+
+#: src/packagedelegate.py:88
+msgid "Installed Version:"
+msgstr "Installeret Version:"
+
+#: src/packagedelegate.py:321
+msgid "Details"
+msgstr "Detaljer"
+
+#: src/packageview.py:24
+msgid "Select all packages in this group"
+msgstr "Vælg alle pakker i denne gruppe"
+
+#: src/pm-install.py:49
+msgid "%prog packages_to_install"
+msgstr "%prog packages_to_install"
+
+#: src/pm-install.py:65
+msgid "Hide summary screen"
+msgstr "Skjul oversigtsskærmen"
+
+#: src/pmutils.py:73 src/statemanager.py:249
+msgid "Network Error"
+msgstr "Netværks Fejl"
+
+#: src/pmutils.py:74 src/statemanager.py:250
+msgid "Please check your network connections and try again."
+msgstr "Kontroller venligst dine netværksforbindelser og forsøg igen."
+
+#: src/pmutils.py:76
+msgid "Authorization Error"
+msgstr "Godkendelses Fejl"
+
+#: src/pmutils.py:77
+msgid "You are not authorized for this operation."
+msgstr "Du har ikke rettigheder til at foretage denne handling"
+
+#: src/pmutils.py:80
+#, python-format
+msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
+msgstr "Pakke <b>%s</b> blev ikke funder i pakkearkiv.<br>Den kan være blevet opgraderet eller fjernet fra pakkearkivet.<br>Prøv venligst at opdatere pakkearkivet."
+
+#: src/pmutils.py:85
+msgid "Mixing file names and package names not supported yet."
+msgstr "Blanding af filnavne og pakkenavn er ikke supporteret endnu."
+
+#: src/pmutils.py:88
+#, python-format
+msgid "File <b>%s</b> doesn't exists."
+msgstr "Fil <b>%s</b> eksisterer ikke"
+
+#: src/pmutils.py:91
+msgid "Another instance of PiSi is running. Only one instance is allowed."
+msgstr "PiSi kører allerede. Kun en udgave af PiSi kan køre af gangen."
+
+#: src/pmutils.py:125
+msgid "Do you want to continue ?"
+msgstr "Vil du fortsætte ?"
+
+#: src/progressdialog.py:74
+msgid "<p align='right'>%1 %</p>"
+msgstr "<p align='right'>%1 %</p>"
+
+#: src/progressdialog.py:75
+#, python-format
+msgid "Operation - %1%"
+msgstr "Handling - %1%"
+
+#: src/progressdialog.py:82
+msgid "Downloading package list of %1"
+msgstr "Downloader pakkeliste af %1"
+
+#: src/progressdialog.py:84
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: src/progressdialog.py:89
+msgid "[%1 / %2]"
+msgstr "[%1 / %2]"
+
+#: src/progressdialog.py:96
+msgid "%1 / %2, %3"
+msgstr "%1 / %2, %3"
+
+#: src/progressdialog.py:113
+msgid "Preparing PiSi..."
+msgstr "Forbereder PiSi..."
+
+#: src/progressdialog.py:124
+msgid "<b>Cancelling operation...</b>"
+msgstr "Fortryder handling..."
+
+#: src/settingsdialog.py:165
+msgid "Open Directory"
+msgstr "Åben Mappe"
+
+#: src/settingsdialog.py:175
+msgid "All the cached packages will be deleted. Are you sure? "
+msgstr "Alle de mellemlagrede pakker vil blive slettet. Er du sikker?"
+
+#: src/settingsdialog.py:253
+msgid "Not a valid repository name"
+msgstr "Navn på pakkearkiv ikke godkendt"
+
+#: src/settingsdialog.py:258
+msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
+msgstr "<qt>Adressen på pakkearkivet skal have et xml or xml.bz2 suffix.<p>Prøv venligst igen.</qt>"
+
+#: src/statemanager.py:85 src/statemanager.py:86
+msgid "Installing Package(s)"
+msgstr "Installerer Pakke(r)"
+
+#: src/statemanager.py:87
+msgid "Removing Package(s)"
+msgstr "Fjerner Pakke(r)"
+
+#: src/statemanager.py:88
+msgid "Upgrading Package(s)"
+msgstr "Opgraderer Pakke(r)"
+
+#: src/statemanager.py:89
+msgid "Applying Repository Changes"
+msgstr "Anvender Pakkearkiv Ændringer"
+
+#: src/statemanager.py:90
+msgid "Updating Repository"
+msgstr "Opdaterer Pakkearkiv"
+
+#: src/statemanager.py:91
+msgid "Updating Repository(s)"
+msgstr "Opdater Pakkearkiv(er)"
+
+#: src/statemanager.py:94
+msgid "installed"
+msgstr "installeret "
+
+#: src/statemanager.py:95
+msgid "removed"
+msgstr "fjernet"
+
+#: src/statemanager.py:96
+msgid "upgraded"
+msgstr "opgraderet"
+
+#: src/statemanager.py:97
+msgid "modified"
+msgstr "ændret"
+
+#: src/statemanager.py:101
+msgid "Install Package(s)"
+msgstr "Installer Pakke(r)"
+
+#: src/statemanager.py:102
+msgid "Remove Package(s)"
+msgstr "Fjern Pakke(r)"
+
+#: src/statemanager.py:103
+msgid "Upgrade Package(s)"
+msgstr "Opgrader Pakke(r)"
+
+#: src/statemanager.py:104
+msgid "Select Operation"
+msgstr "Vælg Handling"
+
+#: src/statemanager.py:115 src/statemanager.py:120
+msgid "%1 new package(s) have been installed succesfully."
+msgstr "%1 nye pakker blev installeret succesfuldt."
+
+#: src/statemanager.py:116
+msgid "%1 package(s) have been upgraded succesfully."
+msgstr "%1 pakker blev opgraderet succesfuldt"
+
+#: src/statemanager.py:121
+msgid "%1 package(s) have been removed succesfully."
+msgstr "%1 pakker blev fjernet succesfuldt."
+
+#: src/statemanager.py:123
+msgid "%1 package(s) have been modified succesfully."
+msgstr "%1 pakker blev ændret succesfuldt."
+
+#: src/statemanager.py:126
+msgid "You have selected the following package(s) to install:"
+msgstr "Du har valgt følgende pakke(r) til installation:"
+
+#: src/statemanager.py:127
+msgid "You have selected the following package(s) to removal:"
+msgstr "Du har valgt følgende pakke(r) til fjernelse:"
+
+#: src/statemanager.py:128
+msgid "You have selected the following package(s) to upgrade:"
+msgstr "Du har valgt følgende pakke(r) til opgradering:"
+
+#: src/statemanager.py:129
+msgid "You have selected the following package(s) to modify:"
+msgstr "Du har valgt følgende pakke(r) til fjernelse:"
+
+#: src/statemanager.py:132
+msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+msgstr "Ekstra afhængigheder krævet af de valgte pakker vil også blive installeret:"
+
+#: src/statemanager.py:133
+msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
+msgstr "Tilbageblivende afhængigheder fra den/de valgte pakke(r) vil også blive fjernet:"
+
+#: src/statemanager.py:134
+msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
+msgstr "Ekstra afhængigheder fra den/de valgte pakke(r) vil også blive opgraderet:"
+
+#: src/statemanager.py:135
+msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
+msgstr "Ekstra afhængigheder fra den/de valgte pakke(r) vil også blive ændret:"
+
+#: src/statemanager.py:174
+msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
+msgstr "Der er i øjeblikket <b>%1</b> valgte pakker med en total størrelse på <b>%2</b>"
+
+#: src/statemanager.py:177
+msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
+msgstr "hvoraf <b>%1</b> tilbageblivende afhængigheder har en total størrelse på <b>%2</b>"
+
+#: src/statemanager.py:179
+msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
+msgstr "med <b>%1</b> ekstra afhængigheder med en total størrelse på <b>%2</b>"
+
+#: src/statemanager.py:180
+msgid "in your basket."
+msgstr "i din kurv"
+
+#: src/statemanager.py:215
+msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
+msgstr "Valgte pakker [%1] er i konflikt med hinanden. Disse pakker kan ikke installeres sammen."
+
+#: src/statemanager.py:216 src/statemanager.py:224
+msgid "Conflict Error"
+msgstr "Konflikt Fejl"
+
+#: src/statemanager.py:220
+msgid "The following packages conflicts:\n"
+msgstr "Følgende pakker er i konflikt:\n"
+
+#: src/statemanager.py:222
+msgid "%1 conflicts with: [%2]\n"
+msgstr "%1 er i konflikt med: [%2]\n"
+
+#: src/statemanager.py:223
+msgid ""
+"\n"
+"Remove the conflicting packages from the system?"
+msgstr ""
+"\n"
+"Fjern pakker der er i konflikt fra systemet?"
+
+#: src/tray.py:133 src/tray.py:208
+msgid "There are <b>%1</b> updates available!"
+msgstr "Der er <b>%1</b> opdateringer tilgængelige!"
+
+#: src/tray.py:189
+msgid "Update"
+msgstr "Opdater"
+
+#: src/tray.py:209
+msgid "Ignore"
+msgstr "Ignorer"
+
+#: src/tray.py:209
+msgid "Show Updates"
+msgstr "VIs Opdateringer"
+
+#: src/webdialog.py:183
+msgid "Package Files"
+msgstr "Pakke størrelse:"
+
+#~ msgid " kb/s"
+#~ msgstr " kb/s"
+
+#~ msgid "Upgradable Packages"
+#~ msgstr "Vis pakker der kan opdateres "
+
+#~ msgid "Modify Package(s)"
+#~ msgstr "Fjerner pakke(r)"
+
+#~ msgid "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
+#~ msgstr "http://paketler.pardus.org.tr/pardus-2009/pisi-index.xml.bz2"
+
+#~ msgid "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+#~ msgstr "http://paketler.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+
+#~ msgid ""
+#~ "Installed Packages\n"
+#~ "\n"
+#~ msgstr "Installer Pakke(r)"
+
+#~ msgid "-- / --"
+#~ msgstr "--  / --"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Vælg alle pakker i denne gruppe</p> </body></html>"
+
+#~ msgid "Help"
+#~ msgstr "&Hjælp"
+
+#~ msgid "There are %1 updates available!"
+#~ msgstr "Der er <b>%1</b> opdateringer tilgængelige!"
+
+#~ msgid "Reverse package selections"
+#~ msgstr "Fjern markering af pakker"
+
+#~ msgid "Package Installer is already started!"
+#~ msgstr "Pakke håndteringer kører allerede!"
+
+#~ msgid "pm-install"
+#~ msgstr "pm-installation"
+
+#~ msgid "Installing %1"
+#~ msgstr "Installerer %1"
+
+#~ msgid "Package Installer"
+#~ msgstr "Pakke håndtering"
+
+#~ msgid "Maintainer"
+#~ msgstr "Vedligeholder"
+
+#~ msgid "Delete"
+#~ msgstr "Slet"
+
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#~ msgid "TextLabel"
+#~ msgstr "TextLabel"
+
+#~ msgid "(use 0 for no limit)"
+#~ msgstr "(benyt 0 hvis ingen begrænsning)"
+
+#~ msgid "Update check"
+#~ msgstr "Tjek efter opdateringer"
+
+#~ msgid "Bandwidth limit:"
+#~ msgstr "Båndbredde begrænsning"
+
+#~ msgid "Succesfully finished installing packages"
+#~ msgstr "Installerede %1 succesfuldt"
+
+#~ msgid "Succesfully finished installing %1"
+#~ msgstr "Installerede %1 succesfuldt"
+
+#~ msgid "Use proxy server"
+#~ msgstr "Benyt proxy server"
+
+#~ msgid "padding-left:15px;"
+#~ msgstr "padding-left:15px;"
+
+#~ msgid "Show Installed Packages"
+#~ msgstr "Vis installerede pakker"
+
+#~ msgid "Status:"
+#~ msgstr "Status:"
+
+#~ msgid "Operation:"
+#~ msgstr "Handling:"
+
+#~ msgid "--:--:--"
+#~ msgstr "--:--:--"
+
+#~ msgid "--  / --"
+#~ msgstr "--  / --"
+
+#~ msgid "Time remaining:"
+#~ msgstr "Tid tilbage:"
+
+#~ msgid "<h3>Preparing PiSi...</h3>"
+#~ msgstr "<h3>Forbereder PiSi...</h3>"
+
+#~ msgid "Operation"
+#~ msgstr "Handling"
+
+#~ msgid "Search"
+#~ msgstr "Søg"
+
+#~ msgid "Search Button"
+#~ msgstr "Søg"
+
+#~ msgid "Use manual settings"
+#~ msgstr "&Generelle indstillinger"
+
+#~ msgid "No proxy server"
+#~ msgstr "Ingen proxy server"
+
+#~ msgid "Package Details"
+#~ msgstr "Pakke Detaljer"
+
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr ""
+#~ "AppInfo serveren kan ikke tilgåes\n"
+#~ " Tjek venligst din netværksforbindelse"
+
+#~ msgid "Type to filter files"
+#~ msgstr "Begynd at skrive for at filtrere filer"
+
+#~ msgid "&Ok"
+#~ msgstr "OK"
+
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Du kan starte det installerede program ved at dobbeltklikke på det i listen forneden eller senere fra programmenuen."
+
+#~ msgid "Operation Summary"
+#~ msgstr "Handlings Sammendrag"
+
+#~ msgid "&Cancel"
+#~ msgstr "Fortryd"
+
+#~ msgid "&OK"
+#~ msgstr "OK"
+
+#~ msgid "&Help"
+#~ msgstr "Hjælp"
+
+#~ msgid "&Proxy"
+#~ msgstr "Proxy"
+
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Benyt denne proxy server til alle protokoller</a>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Der er proxy indstillinger tilgængelige i KDE, du kan klikke <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">her</span></a> for at gå til dem</p></body></html>"
+
+#~ msgid "Password:"
+#~ msgstr "Adgangskode:"
+
+#~ msgid "Username:"
+#~ msgstr "Brugernavn:"
+
+#~ msgid "Domain:"
+#~ msgstr "Domæne:"
+
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP proxy server:"
+
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS proxy server:"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP proxy server:"
+
+#~ msgid "Use Proxy"
+#~ msgstr "Brug Proxy"
+
+#~ msgid "&Repositories"
+#~ msgstr "Pakkearkiver"
+
+#~ msgid "Move &Down"
+#~ msgstr "Flyt Ned"
+
+#~ msgid "Move &Up"
+#~ msgstr "Flyt Op"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Fjern Pakkearkiv"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "Tilføj Nyt Pakkearkiv"
+
+#~ msgid "C&ache"
+#~ msgstr "Mellemlager"
+
+#~ msgid " kB/s"
+#~ msgstr "KB/s"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Benyt båndbredde begrænsning"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Båndbredde begrænsning"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "Ryd mellemlageret nu"
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr ""
+#~ "Nulstilling af mellemlageret vil fjerne alle hentet software.\n"
+#~ "Dette vil ikke slette installeret software eller påvirke systemets stabilitet. "
+
+#~ msgid "Open"
+#~ msgstr "Åben"
+
+#~ msgid "Select..."
+#~ msgstr "Vælg..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Aktuel mellemlager mappe"
+
+#~ msgid " Mib"
+#~ msgstr "Mb"
+
+#~ msgid "Unlimited"
+#~ msgstr "Ubegrænset"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Maximal mellemlager størrelse:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "Brug harddisk til mellemlager forl hentet software"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Mellemlager begrænsning"
+
+#~ msgid "&General Settings"
+#~ msgstr "Generelle Indstillinger"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Installer opdateringer automatisk"
+
+#~ msgid " min"
+#~ msgstr "min"
+
+#~ msgid "Check interval :"
+#~ msgstr "Opdaterings Interval:"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Benyt periodisk tjek af opdateringer"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Skjul systemikon vis der ikke er nogen opdateringer."
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Benyt systemikon i statusfeltet"
+
+#~ msgid "System tray icon"
+#~ msgstr "Systemikon i statusfeltet"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Vis pakketype tags"
+
+#~ msgid "Show Component information "
+#~ msgstr "Vis komponent information"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "&VIs kun skrivebords programmer"
+
+#~ msgid "Package list"
+#~ msgstr "Pakkeliste"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Indstillinger for pakke håndtering"
+
+#~ msgid "Repository Address"
+#~ msgstr "Adresse til pakkearkiv"
+
+#~ msgid "Repository Name"
+#~ msgstr "Navn på pakkearkiv"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Navn på pakkearkiv, eks <b>pardus-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Tilføj Nyt Pakkearkiv"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+C"
+
+#~ msgid "Preview"
+#~ msgstr "Forhåndsvisning"
+
+#~ msgid "Cancel"
+#~ msgstr "Fortryd"
+
+#~ msgid "Install"
+#~ msgstr "Installer"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Følgende pakker er valgt til installation. Vil du installere disse pakker ?"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Hurtig Installation"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Tjek for Opdateringer"
+
+#~ msgid "Show Basket"
+#~ msgstr "Vis Kurv"
+
+#~ msgid "Package List"
+#~ msgstr "Pakkeliste"
+
+#~ msgid "Category Panel"
+#~ msgstr "Kategori Panel"
+
+#~ msgid "Update Types"
+#~ msgstr "Opdatere Typer"
+
+#~ msgid "Click to search"
+#~ msgstr "Klik for at søge"
+
+#~ msgid "Search Bar"
+#~ msgstr "Søgefelt"
+
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
+
+#~ msgid "Form"
+#~ msgstr "Formular"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</"
+
+#~ msgid "Download Size:"
+#~ msgstr "Størrelse af Download:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Total Størrelse:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Valgte pakke(r) til installation:"
+
+#~ msgid "Basket"
+#~ msgstr "Kurv"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Tarayıcı"
+
+#~ msgid "Application"
+#~ msgstr "Program"
+
+#~ msgid "Add/Remove/Update Packages"
+#~ msgstr "Tilføj/Fjern/Updatere Pakker"
+
+#~ msgid "PiSi Package Manager Graphical User Interface"
+#~ msgstr "PiSi Pakke Håndteringens Grafiske Brugerflade"
+
+#~ msgid "Add or Remove Software"
+#~ msgstr "Tilføj eller Fjern Software"

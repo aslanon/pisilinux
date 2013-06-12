@@ -1,0 +1,3 @@
+import os
+
+os.system('echo %s|sudo -S %s' % ("aslanon@pardus", "python setup.py install && package-manager")) 

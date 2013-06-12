@@ -1,0 +1,845 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-12 00:09+0300\n"
+"PO-Revision-Date: 2011-01-17 08:29+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/about.py:27
+msgid "(c) 2009-2010 TUBITAK/UEKAE"
+msgstr "(c) 2009-2010 TUBITAK/UEKAE"
+
+#: src/about.py:36
+msgid "Onur Aslan <aslanon>"
+msgstr ""
+
+#: src/about.py:36
+msgid "Qt Designer, New Developer"
+msgstr ""
+
+#: src/about.py:37
+msgid "Gökmen Göksel"
+msgstr "Gökmen Göksel"
+
+#: src/about.py:37
+#, fuzzy
+msgid "Old Developer"
+msgstr "Разработчик"
+
+#: src/about.py:38
+msgid "Faik Uygur"
+msgstr "Faik Uygur"
+
+#: src/about.py:38
+msgid "First Author"
+msgstr "Первый автор"
+
+#: src/about.py:39
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Алексей Иванов, Семенов Николай, Щербаков Александр,  Ясыров Василий"
+
+#: src/about.py:40
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "alexey.ivanes@gmail.com, tribunal2000@gmail.com, neocrust@gmail.com, zag@vspu.ru,"
+
+#: src/basketdialog.py:55
+msgid "Clear Basket"
+msgstr "Очистить"
+
+#: src/basketdialog.py:56
+msgid "Do you want to clear all selections ?"
+msgstr "Вы хотите очистить выбор пакетов?"
+
+#: src/basketdialog.py:70 src/pmutils.py:79 src/pmutils.py:84
+#: src/pmutils.py:87 src/pmutils.py:90 src/pmutils.py:93
+#: src/settingsdialog.py:252 src/settingsdialog.py:257
+msgid "Pisi Error"
+msgstr "Ошибка PiSi "
+
+#: src/basketdialog.py:173
+msgid "You must restart your system for the updates to take effect"
+msgstr "Вам необходимо перезагрузить компьютер, чтобы обновления вступили в силу"
+
+#: src/basketdialog.py:175 src/basketdialog.py:184
+msgid "Update Requirements"
+msgstr "Требования к обновлению"
+
+#: src/basketdialog.py:176
+msgid "Packages Require System Restart"
+msgstr "Пакеты требуют перезагрузку системы"
+
+#: src/basketdialog.py:182
+msgid "You must restart related system services for the updated package(s) to take effect"
+msgstr "Вы должны перезапустить следующие службы, чтобы обновления вступили в силу"
+
+#: src/basketdialog.py:185
+msgid "Packages Require Service Restart"
+msgstr "Пакеты требуют перезапуска службы"
+
+#: src/basketdialog.py:196
+msgid "Selected packages are considered critical for the system. Removing them may cause your system to be unusable."
+msgstr "Выбранные пакеты являются критическими для системы. Их удаление может сделать вашу систему неработоспособной."
+
+#: src/basketdialog.py:199 src/settingsdialog.py:174
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: src/basketdialog.py:200
+msgid "Critical Packages"
+msgstr "Критические пакеты"
+
+#: src/basketdialog.py:212 src/pmwindow.py:145
+msgid "Selected packages are already installed.<br>If you continue, the packages will be reinstalled"
+msgstr "Выбранные пакеты уже установлены.<br>Если вы продолжите, пакеты будут установлены заново."
+
+#: src/basketdialog.py:214 src/pmwindow.py:147
+msgid "Already Installed Packages"
+msgstr "Уже установленные пакеты"
+
+#: src/basketdialog.py:215 src/mainwindow.py:152 src/mainwindow.py:155
+#: src/pmwindow.py:148
+msgid "Installed Packages"
+msgstr "Установленные пакеты"
+
+#: src/grouplist.py:49 src/tray.py:69 src/tray.py:201
+msgid "All"
+msgstr "Все"
+
+#: src/helpdialog.py:33
+msgid "Package Manager Help"
+msgstr "Краткая справка о менеджере пактов"
+
+#: src/main.py:90 src/main.py:91
+msgid "Show main window"
+msgstr "Показать главное окно"
+
+#: src/mainwidget.py:155 src/tray.py:129 src/tray.py:135
+msgid "All packages are up to date"
+msgstr "Все пакеты в актуальном состоянии"
+
+#: src/mainwidget.py:259
+msgid "Searching..."
+msgstr "Поиск..."
+
+#: src/mainwidget.py:271
+msgid "No results found."
+msgstr "Ничего не найдено."
+
+#: src/mainwidget.py:417
+msgid "Select packages"
+msgstr "Выберите пакеты"
+
+#: src/mainwidget.py:418
+msgid "You must select at least one installed package"
+msgstr "Вы должны выбрать хотя бы один установленный пакет"
+
+#: src/mainwidget.py:437
+msgid "All Updates"
+msgstr "Все обновления"
+
+#: src/mainwidget.py:438
+msgid "Security Updates"
+msgstr "Обновления безопасности"
+
+#: src/mainwidget.py:439
+msgid "Critical Updates"
+msgstr "Критические обновления"
+
+#: src/mainwindow.py:140 src/mainwindow.py:143
+msgid "All Packages"
+msgstr "Все пакеты"
+
+#: src/mainwindow.py:146 src/mainwindow.py:149
+msgid "Installable Packages"
+msgstr "Устанавливаемые пакеты"
+
+#: src/mainwindow.py:158 src/mainwindow.py:161
+msgid "Updates"
+msgstr "Обновление"
+
+#: src/mainwindow.py:206
+msgid "Calculating dependencies..."
+msgstr "Расчет зависимостей..."
+
+#: src/mainwindow.py:210
+msgid "Currently your basket is empty."
+msgstr "В настоящее время Ваша корзина пуста."
+
+#: src/morewidgets.py:146 src/progressdialog.py:62 src/slide.py:50
+#: src/tray.py:129 src/tray.py:133 src/tray.py:135
+msgid "Package Manager"
+msgstr "Менеджер пакетов"
+
+#: src/operationmanager.py:41
+msgid "installing"
+msgstr "установка"
+
+#: src/operationmanager.py:42
+msgid "removing"
+msgstr "удаление"
+
+#: src/operationmanager.py:43 src/progressdialog.py:78
+msgid "extracting"
+msgstr "распаковка"
+
+#: src/operationmanager.py:44 src/progressdialog.py:78
+msgid "configuring"
+msgstr "настройка"
+
+#: src/operationmanager.py:141
+msgid "downloading"
+msgstr "загрузка"
+
+#: src/packagedelegate.py:66
+msgid "critical"
+msgstr "критическое"
+
+#: src/packagedelegate.py:67
+msgid "security"
+msgstr "безопасности"
+
+#: src/packagedelegate.py:83
+msgid "Description:"
+msgstr "Описание:"
+
+#: src/packagedelegate.py:84
+msgid "Website:"
+msgstr "Сайт:"
+
+#: src/packagedelegate.py:85
+msgid "Release:"
+msgstr "Версия:"
+
+#: src/packagedelegate.py:86
+msgid "Repository:"
+msgstr "Репозиторий:"
+
+#: src/packagedelegate.py:87
+msgid "Package Size:"
+msgstr "Размер пакета:"
+
+#: src/packagedelegate.py:88
+msgid "Installed Version:"
+msgstr "Установленная версия:"
+
+#: src/packagedelegate.py:321
+msgid "Details"
+msgstr "Подробнее"
+
+#: src/packageview.py:24
+msgid "Select all packages in this group"
+msgstr "Выбрать все пакеты в этой группе"
+
+#: src/pm-install.py:49
+msgid "%prog packages_to_install"
+msgstr "%prog packages_to_install"
+
+#: src/pm-install.py:65
+msgid "Hide summary screen"
+msgstr "Скрыть окно итогов"
+
+#: src/pmutils.py:73 src/statemanager.py:249
+msgid "Network Error"
+msgstr "Ошибка сети"
+
+#: src/pmutils.py:74 src/statemanager.py:250
+msgid "Please check your network connections and try again."
+msgstr "Пожалуйста, проверьте сетевые подключения и повторите попытку."
+
+#: src/pmutils.py:76
+msgid "Authorization Error"
+msgstr "Ошибка авторизации"
+
+#: src/pmutils.py:77
+msgid "You are not authorized for this operation."
+msgstr "Вы не авторизованы для этой операции."
+
+#: src/pmutils.py:80
+#, python-format
+msgid "Package <b>%s</b> not found in repositories.<br>It may be upgraded or removed from the repository.<br>Please try upgrading repository informations."
+msgstr "Пакет <b>%s</b> не найден в репозитории.<br>Возможно пакет был обновлен или удален из репозитория.<br>Пожалуйста, попробуйте обновить информацию о репозиториях."
+
+#: src/pmutils.py:85
+msgid "Mixing file names and package names not supported yet."
+msgstr "Смешивание имен файлов и имен пакетов не поддерживается."
+
+#: src/pmutils.py:88
+#, python-format
+msgid "File <b>%s</b> doesn't exists."
+msgstr "Файл <b>%s</b> не существует."
+
+#: src/pmutils.py:91
+msgid "Another instance of PiSi is running. Only one instance is allowed."
+msgstr "Сейчас запущен другой экземпляр PiSi. Допускается работа только одного экземпляра программы."
+
+#: src/pmutils.py:125
+msgid "Do you want to continue ?"
+msgstr "Вы хотите продолжить?"
+
+#: src/progressdialog.py:74
+msgid "<p align='right'>%1 %</p>"
+msgstr "<p align='right'>%1 %</p>"
+
+#: src/progressdialog.py:75
+#, python-format
+msgid "Operation - %1%"
+msgstr "Операция - %1%"
+
+#: src/progressdialog.py:82
+msgid "Downloading package list of %1"
+msgstr "Загрузка списка пакетов %1"
+
+#: src/progressdialog.py:84
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: src/progressdialog.py:89
+msgid "[%1 / %2]"
+msgstr "[%1 / %2]"
+
+#: src/progressdialog.py:96
+msgid "%1 / %2, %3"
+msgstr "%1 / %2, %3"
+
+#: src/progressdialog.py:113
+msgid "Preparing PiSi..."
+msgstr "Подготовка PiSi ..."
+
+#: src/progressdialog.py:124
+msgid "<b>Cancelling operation...</b>"
+msgstr "<b>Отмена операции...</b>"
+
+#: src/settingsdialog.py:165
+msgid "Open Directory"
+msgstr "Открыть директорию"
+
+#: src/settingsdialog.py:175
+msgid "All the cached packages will be deleted. Are you sure? "
+msgstr "Все кэшированные пакеты будут удалены. Вы уверены?"
+
+#: src/settingsdialog.py:253
+msgid "Not a valid repository name"
+msgstr "Не верное имя репозитория"
+
+#: src/settingsdialog.py:258
+msgid "<qt>Repository address should end with xml or xml.bz2 or xz suffix.<p>Please try again.</qt>"
+msgstr "<qt>Адресс репозитория должен оканчиваться суффиксом xml или xml.bz2.<p>Пожалуйста, попробуйте еще раз.</qt>"
+
+#: src/statemanager.py:85 src/statemanager.py:86
+msgid "Installing Package(s)"
+msgstr "Установка пакета(ов)"
+
+#: src/statemanager.py:87
+msgid "Removing Package(s)"
+msgstr "Удаление пакета(ов)"
+
+#: src/statemanager.py:88
+msgid "Upgrading Package(s)"
+msgstr "Обновление пакета(ов)"
+
+#: src/statemanager.py:89
+msgid "Applying Repository Changes"
+msgstr "Применение изменений репозитория"
+
+#: src/statemanager.py:90
+msgid "Updating Repository"
+msgstr "Обновление репозитория"
+
+#: src/statemanager.py:91
+msgid "Updating Repository(s)"
+msgstr "Обновление репозитория(ев)"
+
+#: src/statemanager.py:94
+msgid "installed"
+msgstr "установлено"
+
+#: src/statemanager.py:95
+msgid "removed"
+msgstr "удалено"
+
+#: src/statemanager.py:96
+msgid "upgraded"
+msgstr "обновлено"
+
+#: src/statemanager.py:97
+msgid "modified"
+msgstr "изменено"
+
+#: src/statemanager.py:101
+msgid "Install Package(s)"
+msgstr "Установить"
+
+#: src/statemanager.py:102
+msgid "Remove Package(s)"
+msgstr "Удалить"
+
+#: src/statemanager.py:103
+msgid "Upgrade Package(s)"
+msgstr "Обновить"
+
+#: src/statemanager.py:104
+msgid "Select Operation"
+msgstr "Выбор операции"
+
+#: src/statemanager.py:115 src/statemanager.py:120
+msgid "%1 new package(s) have been installed succesfully."
+msgstr "%1 новых пакетов успешно установлены."
+
+#: src/statemanager.py:116
+msgid "%1 package(s) have been upgraded succesfully."
+msgstr "%1 пакеты были обновлены успешно."
+
+#: src/statemanager.py:121
+msgid "%1 package(s) have been removed succesfully."
+msgstr "%1 пакеты были удалены успешно."
+
+#: src/statemanager.py:123
+msgid "%1 package(s) have been modified succesfully."
+msgstr "%1 пакеты были изменены успешно."
+
+#: src/statemanager.py:126
+msgid "You have selected the following package(s) to install:"
+msgstr "Вы выбрали следующий(е) пакет(ы) для установки:"
+
+#: src/statemanager.py:127
+msgid "You have selected the following package(s) to removal:"
+msgstr "Вы выбрали следующий(е) пакет(ы) для удаления:"
+
+#: src/statemanager.py:128
+msgid "You have selected the following package(s) to upgrade:"
+msgstr "Вы выбрали следующий(е) пакет(ы) для обновления:"
+
+#: src/statemanager.py:129
+msgid "You have selected the following package(s) to modify:"
+msgstr "Вы выбрали следующий(е) пакет(ы) для изменения:"
+
+#: src/statemanager.py:132
+msgid "Extra dependencies of the selected package(s) that are also going to be installed:"
+msgstr "Дополнительные зависимости выбранных пакетов также будут установлены:"
+
+#: src/statemanager.py:133
+msgid "Reverse dependencies of the selected package(s) that are also going to be removed:"
+msgstr "Следующие зависимости выбранных пакетов также будут удалены:"
+
+#: src/statemanager.py:134
+msgid "Extra dependencies of the selected package(s) that are also going to be upgraded:"
+msgstr "Дополнительные зависимости выбранных пакетов, которые тоже будут обновлены:"
+
+#: src/statemanager.py:135
+msgid "Extra dependencies of the selected package(s) that are also going to be modified:"
+msgstr "Дополнительные зависимости выбранных пакетов, которые тоже будут изменены:"
+
+#: src/statemanager.py:174
+msgid "Currently there are <b>%1</b> selected package(s) of total <b>%2</b> of size "
+msgstr "Сейчас есть <b>%1</b> выбранных пакетов на <b>%2</b> по объему "
+
+#: src/statemanager.py:177
+msgid "with <b>%1</b> reverse dependencies of total <b>%2</b> of size "
+msgstr "с <b>%1</b> зависимостями на <b>%2</b> по объему "
+
+#: src/statemanager.py:179
+msgid "with <b>%1</b> extra dependencies of total <b>%2</b> of size "
+msgstr "с <b>%1</b> дополнительными зависимостями на <b>%2</b> по объему "
+
+#: src/statemanager.py:180
+msgid "in your basket."
+msgstr "в вашей корзине."
+
+#: src/statemanager.py:215
+msgid "Selected packages [%1] are in conflict with each other. These packages can not be installed together."
+msgstr "Выбранные пакеты [%1] конфликтуют друг с другом. Они не могут быть установлены вместе."
+
+#: src/statemanager.py:216 src/statemanager.py:224
+msgid "Conflict Error"
+msgstr "Конфликт"
+
+#: src/statemanager.py:220
+msgid "The following packages conflicts:\n"
+msgstr "Конфликты среди следующих пакетов:\n"
+
+#: src/statemanager.py:222
+msgid "%1 conflicts with: [%2]\n"
+msgstr "%1 конфликтует с: [%2]\n"
+
+#: src/statemanager.py:223
+msgid ""
+"\n"
+"Remove the conflicting packages from the system?"
+msgstr ""
+"\n"
+"Удалить конфликтующие пакеты из системы?"
+
+#: src/tray.py:133 src/tray.py:208
+msgid "There are <b>%1</b> updates available!"
+msgstr "Доступно <b>%1</b> обновлений!"
+
+#: src/tray.py:189
+msgid "Update"
+msgstr "Обновление"
+
+#: src/tray.py:209
+msgid "Ignore"
+msgstr "Игнорировать"
+
+#: src/tray.py:209
+msgid "Show Updates"
+msgstr "Показать обновления"
+
+#: src/webdialog.py:183
+msgid "Package Files"
+msgstr "Файлы пакета"
+
+#~ msgid " kb/s"
+#~ msgstr " кб/с"
+
+#~ msgid "Upgradable Packages"
+#~ msgstr "Обновляемые пакеты"
+
+#~ msgid "Modify Package(s)"
+#~ msgstr "Изменить пакет(ы)"
+
+#~ msgid "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
+#~ msgstr "http://packages.pardus.org.tr/pardus-2009.2/pisi-index.xml.bz2"
+
+#~ msgid "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+#~ msgstr "http://packages.pardus.org.tr/contrib-2009/pisi-index.xml.bz2"
+
+#~ msgid ""
+#~ "Installed Packages\n"
+#~ "\n"
+#~ msgstr "Установленные пакеты"
+
+#~ msgid "-- / --"
+#~ msgstr "-- / --"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p></body></html>"
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgid "Status:"
+#~ msgstr "Статус:"
+
+#~ msgid "Operation:"
+#~ msgstr "Операция:"
+
+#~ msgid "--:--:--"
+#~ msgstr "--:--:--"
+
+#~ msgid "--  / --"
+#~ msgstr "--  / --"
+
+#~ msgid "Time remaining:"
+#~ msgstr "Оставшееся время:"
+
+#~ msgid "<h3>Preparing PiSi...</h3>"
+#~ msgstr "<h3>Подготовка PiSi...</h3>"
+
+#~ msgid "Operation"
+#~ msgstr "Операция"
+
+#~ msgid "Toggler for selection all packages in Package List"
+#~ msgstr "Переключатель для выбора всех пакетов в Списке пакетов"
+
+#~ msgid "Action Button for current states action"
+#~ msgstr "Кнопка действия для текущего состояния"
+
+#~ msgid "Search"
+#~ msgstr "Поиск"
+
+#~ msgid "Search Button"
+#~ msgstr "Кнопка поиска"
+
+#~ msgid "Use Desktop Enviorenment's settings"
+#~ msgstr "Использовать установки среды рабочего стола"
+
+#~ msgid "Use manual settings"
+#~ msgstr "Использовать пользовательские установки"
+
+#~ msgid "No proxy server"
+#~ msgstr "Нет прокси-сервера"
+
+#~ msgid "Package Details"
+#~ msgstr "Описание пакета"
+
+#~ msgid ""
+#~ "AppInfo Server is not reachable\n"
+#~ "Please check your network connection"
+#~ msgstr "Проверьте сетевые подключения и повторите попытку."
+
+#~ msgid "Type to filter files"
+#~ msgstr "По типу файлов"
+
+#~ msgid "&Ok"
+#~ msgstr "Ок"
+
+#~ msgid "You can start the new installed application by double-clicking on the list below or later from the applications menu."
+#~ msgstr "Вы можете запустить новое установленное приложение дважды щелкнув по его названию в меню прямо сейчас или позже."
+
+#~ msgid "Operation Summary"
+#~ msgstr "Итоги"
+
+#~ msgid "&Cancel"
+#~ msgstr "Отменить"
+
+#~ msgid "&OK"
+#~ msgstr "ОК"
+
+#~ msgid "&Help"
+#~ msgstr "Сп&равка"
+
+#~ msgid "&Proxy"
+#~ msgstr "Прокси-сервер"
+
+#~ msgid "<a href=#>Use this proxy server for all protocols</a>"
+#~ msgstr "<a href=#>Использовать этот прокси-сервер для всех протоколов</a>"
+
+#~ msgid ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">There is proxy settings available in KDE, you can click <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">here</span></a> to get these settings</p></body></html>"
+#~ msgstr ""
+#~ "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+#~ "p, li { white-space: pre-wrap; }\n"
+#~ "</style></head><body style=\" font-family:'Droid Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+#~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Настройки прокси доступны в KDE, нажмите <a href=\"#\"><span style=\" text-decoration: underline; color:#1b7bae;\">здесь</span></a>, чтобы открыть диалог настроек.</p></body></html>"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid "Username:"
+#~ msgstr "Имя пользователя:"
+
+#~ msgid "Domain:"
+#~ msgstr "Домен:"
+
+#~ msgid "FTP proxy server:"
+#~ msgstr "FTP прокси-сервер:"
+
+#~ msgid "HTTPS proxy server:"
+#~ msgstr "HTTPS прокси-сервер:"
+
+#~ msgid "Port:"
+#~ msgstr "Порт:"
+
+#~ msgid "HTTP proxy server:"
+#~ msgstr "HTTP прокси-сервер:"
+
+#~ msgid "Use Proxy"
+#~ msgstr "Использовать прокси-сервер"
+
+#~ msgid "&Repositories"
+#~ msgstr "Репозитории"
+
+#~ msgid "Move &Down"
+#~ msgstr "Передвинуть &ниже"
+
+#~ msgid "Move &Up"
+#~ msgstr "Передвинуть &выше"
+
+#~ msgid "Remove Repository"
+#~ msgstr "Удалить репозиторий"
+
+#~ msgid "&Add New Repository"
+#~ msgstr "Добавить новый репозиторий"
+
+#~ msgid "C&ache"
+#~ msgstr "Кэш"
+
+#~ msgid " kB/s"
+#~ msgstr "Кб/с"
+
+#~ msgid "Use bandwidth limit :"
+#~ msgstr "Использовать ограничение:"
+
+#~ msgid "Bandwidth limit"
+#~ msgstr "Ограничение на загрузку интернет соединения"
+
+#~ msgid "C&lean disk cache now"
+#~ msgstr "Очистить кэш на диске."
+
+#~ msgid "Clearing the disk cache will remove all downloaded software. This will not delete installed software or affect your system stability."
+#~ msgstr "Очистка кэша удалит все загруженное ПО. Это не удалит установленные пакеты и не повлияет на стабильность работы системы."
+
+#~ msgid "Open"
+#~ msgstr "Открыть"
+
+#~ msgid "Select..."
+#~ msgstr "Выбрать..."
+
+#~ msgid "Current cache dir:"
+#~ msgstr "Текущий каталог кэша:"
+
+#~ msgid " Mib"
+#~ msgstr " мб"
+
+#~ msgid "Unlimited"
+#~ msgstr "Неограниченный"
+
+#~ msgid "Maximum cache size:"
+#~ msgstr "Максимальный объем кэша:"
+
+#~ msgid "&Use hard disk cache for downloaded software"
+#~ msgstr "Использовать жесткий диск для создания кэша загруженного ПО"
+
+#~ msgid "Cache Limit"
+#~ msgstr "Ограничение кэша"
+
+#~ msgid "&General Settings"
+#~ msgstr "Основные"
+
+#~ msgid "Install updates automatically"
+#~ msgstr "Устанавливать обновления автоматически"
+
+#~ msgid " min"
+#~ msgstr " мин"
+
+#~ msgid "Check interval :"
+#~ msgstr "Интервал проверки:"
+
+#~ msgid "Enable &periodic update check"
+#~ msgstr "Включить и периодически проверять обновления"
+
+#~ msgid "Hide system tray if there is no update."
+#~ msgstr "Спрятать значок в системном лотке, если нет обновлений"
+
+#~ msgid "Enable system tray icon"
+#~ msgstr "Включить значок в системном лотке"
+
+#~ msgid "System tray icon"
+#~ msgstr "Настройка поведения в системном трее"
+
+#~ msgid "Show package type tags"
+#~ msgstr "Показать теги типов пакетов"
+
+#~ msgid "Show Component information "
+#~ msgstr "Показывать информацию о компонентах"
+
+#~ msgid "&Show only desktop applications"
+#~ msgstr "Показывать только графические приложения для рабочего стола"
+
+#~ msgid "Package list"
+#~ msgstr "Список пакетов"
+
+#~ msgid "Package Manager Settings"
+#~ msgstr "Настройка менеджера пакетов"
+
+#~ msgid "Repository Address"
+#~ msgstr "Адрес репозитория"
+
+#~ msgid "Repository Name"
+#~ msgstr "Имя репозитория"
+
+#~ msgid "Name of the repository, e.g <b>pardus-devel</b>"
+#~ msgstr "Имя репозитория, например <b>pardus-devel</b>"
+
+#~ msgid "Add New Repository"
+#~ msgstr "Добавить новый репозиторий"
+
+#~ msgid "Alt+C"
+#~ msgstr "Alt+С"
+
+#~ msgid "Preview"
+#~ msgstr "Обзор"
+
+#~ msgid "Cancel"
+#~ msgstr "Отменить"
+
+#~ msgid "Install"
+#~ msgstr "Установить"
+
+#~ msgid "Following packages are selected to install. Do you want to install these packages ?"
+#~ msgstr "Следующие пакеты выбран для установки. Вы хотите установить эти пакеты?"
+
+#~ msgid "Package Manager Quick Install"
+#~ msgstr "Быстрая установка пакетов"
+
+#~ msgid "Check for Updates"
+#~ msgstr "Проверить наличие обновлений"
+
+#~ msgid "Show Basket"
+#~ msgstr "Показать корзину"
+
+#~ msgid "Package List"
+#~ msgstr "Список пакетов"
+
+#~ msgid "Category Panel"
+#~ msgstr "Панель категории"
+
+#~ msgid "Update Types"
+#~ msgstr "Типы обновлений"
+
+#~ msgid "Click to search"
+#~ msgstr "Введите имя пакета, затем нажмите на значок поиска справа"
+
+#~ msgid "Search Bar"
+#~ msgstr "Строка поиска"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Form"
+#~ msgstr "Форма"
+
+#~ msgid "<b>2.0 MB</"
+#~ msgstr "<b>2.0 MB</"
+
+#~ msgid "Download Size:"
+#~ msgstr "Размер загрузки:"
+
+#~ msgid "<b>2.2 MB</b>"
+#~ msgstr "<b>2.2 MB</b>"
+
+#~ msgid "Total Size:"
+#~ msgstr "Общий объем:"
+
+#~ msgid "Selected package(s) for install:"
+#~ msgstr "Выбранные пакеты для установки:"
+
+#~ msgid "Basket"
+#~ msgstr "Корзина"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "Web Tarayıcı"
+#~ msgstr "Web Tarayıcı"
+
+#~ msgid "Application"
+#~ msgstr "Приложение"
+
+#~ msgid "Add/Remove/Update Packages"
+#~ msgstr "Добавить/удалить/обновить пакеты"
+
+#~ msgid "PiSi Package Manager Graphical User Interface"
+#~ msgstr "Графический пользовательский интерфейс менеджера пакетов PiSi"
+
+#~ msgid "Add or Remove Software"
+#~ msgstr "Установка и удаление программ"
