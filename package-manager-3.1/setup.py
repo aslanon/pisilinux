@@ -259,7 +259,7 @@ setup(
       version           = about.version,
       description       = unicode(about.PACKAGE),
       license           = unicode('GPL'),
-      author            = "Pardus Developers",
+      author            = "Pisi Linux Developers",
       author_email      = about.bugEmail,
       url               = about.homePage,
       packages          = [''],
