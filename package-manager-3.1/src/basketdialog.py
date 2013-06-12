@@ -81,6 +81,8 @@ class BasketDialog(PAbstractBox, Ui_BasketDialog):
         self.animate(start = BOTCENTER, stop = MIDCENTER)
 
     def _hide(self):
+        self.state.state = self.parent.cw.currentState
+        self.parent.cw.initialize()        
         self.disconnectModelSignals()
         self.animate(start = MIDCENTER, stop = BOTCENTER, direction = OUT)
 

@@ -469,7 +469,9 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         if not answer:
             self.initializePackageList()
             self.initializeBasket()            
-            self.initializeStatusUpdater()    
+            self.initializeStatusUpdater()  
+            self.state.state = self.parent.cw.currentState
+            self.parent.cw.initialize()     
             return
 
         if actions:
