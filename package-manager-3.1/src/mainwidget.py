@@ -469,7 +469,6 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
         if not answer:
             self.initializePackageList()
             self.initializeBasket()            
-            self.packageList.hideSelectAll()
             self.initializeStatusUpdater()    
             return
 
@@ -480,13 +479,10 @@ class MainWidget(QWidget, PM, Ui_MainWidget):
             self.initializeStatusUpdater() 
             self.initializeBasket()
             self.statusUpdated()
-            self.packageList.hideSelectAll()
- 
            
         self.showBasket()
         self.initializeBasket()    
         self.initializeStatusUpdater()    
-        self.packageList.hideSelectAll()
         
     def initializeUpdateTypeList(self):
         self.typeCombo.clear()
