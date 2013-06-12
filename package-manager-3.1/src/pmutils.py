@@ -72,7 +72,7 @@ class PM:
         if any(warning in message for warning in ('urlopen error','Socket Error', 'PYCURL ERROR')):
             errorTitle = i18n("Network Error")
             errorMessage = i18n("Please check your network connections and try again.")
-        elif "Access denied" in message or "tr.org.pardus.comar.Comar.PolicyKit" in message:
+        elif "Access denied" in message or "tr.org.pisilinux.comar.Comar.PolicyKit" in message:
             errorTitle = i18n("Authorization Error")
             errorMessage = i18n("You are not authorized for this operation.")
         elif "HTTP Error 404" in message and not package == '':

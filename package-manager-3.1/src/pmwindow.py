@@ -90,7 +90,7 @@ class PmWindow(QDialog, PM, Ui_PmWindow):
         # to get package name from given local package path.
         #
         # Example:
-        # input : ['/tmp/ax-2.3-1.pisi', 'http://pardus.org.tr/tt-2.3.pisi', 'yali']
+        # input : ['/tmp/ax-2.3-1.pisi', 'http://pisilinux.org.tr/tt-2.3.pisi', 'yali']
         # output: ['ax', 'yali']
         _pkgs = map(lambda x: pisi.api.info_file(x)[0].package.name \
                         if x.endswith('.pisi') \
