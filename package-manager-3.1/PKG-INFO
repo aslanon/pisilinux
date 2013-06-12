@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: package-manager
-Version: 3.0.3
+Version: 3.1
 Summary: Package Manager
-Home-page: http://developer.pardus.org.tr/projects/package-manager
-Author: Pardus Developers
-Author-email: bugs@pardus.org.tr
+Home-page: http://www.pisilinux.org
+Author: Pisi Linux Developers
+Author-email: bugs@pisilinux.org.tr
 License: GPL
 Description: UNKNOWN
 Platform: UNKNOWN
