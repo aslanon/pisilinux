@@ -778,9 +778,11 @@
 /* #QTreeView */
 
     QTreeView {
-        border: 0px solid rgba(255,255,255,100);
+        border: 1px solid rgba(255,255,255,80);
         border-radius: 3px;
-        selection-background-color: gray;
+        selection-background-color: rgba(255, 255, 255, 30);
+        background-color:rgba(255, 255, 255, 10);
+        color:white
     }
 
     QTreeView::branch:has-children:!has-siblings:closed,
@@ -799,16 +801,17 @@
 /* #QHeaderView Table Column Headers */
 
     QHeaderView::section {
-        background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
-                          stop:0 #616161, stop: 0.5 #505050,
-                          stop: 0.6 #434343, stop:1 #656565);
+        background-color:qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
+           stop:0.42623 rgba(200, 79, 136, 200), 
+           stop:0.489247 rgba(200, 52, 119, 200),
+           stop:1 rgba(200, 0, 105, 200));
         font-size: 8pt;
         color: white;
         padding-left:5px;
         border-right: 1px solid rgba(255,255,255,20);
         border-left: 1px solid rgba(255,255,255,20);
         border-top: 1px solid rgba(255,255,255,20);
-        border-bottom: 1px solid rgba(255,255,255,20);
+        border-bottom: 1px solid rgba(255,255,255,80);
         height: 27px
     }
 
