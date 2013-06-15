@@ -28,10 +28,11 @@
 
 QListView {
        show-decoration-selected: 1; /* make the selection span the entire width of the view */
-       color: #444444;
        background-color: qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.516304, y2:0.653, stop:0 rgba(171, 171, 171, 10), stop:1 rgba(255, 255, 255, 10));
        border-radius: 2px;
 	   font-weight: bold;
+      color: rgba(255, 255, 255, 150);
+      border:1px solid rgba(255, 255, 255, 20)
  }
 
 
@@ -717,8 +718,8 @@ border-bottom: 1px solid rgba(255, 255, 255, 75);/*white*/
                  <widget class="QFrame" name="frame_5">
                   <property name="styleSheet">
                    <string notr="true">#frame_5{ 
-	border:0px;
-	background-color: rgba(0, 0, 0, 50);
+    border: 1px solid rgba(255,255,255,80);
+    background-color:rgba(255, 255, 255, 10);
 	border-radius: 2px;
 }</string>
                   </property>
@@ -755,6 +756,19 @@ border-bottom: 1px solid rgba(255, 255, 255, 75);/*white*/
                         <number>0</number>
                        </property>
                        <item>
+                        <spacer name="verticalSpacer_20">
+                         <property name="orientation">
+                          <enum>Qt::Vertical</enum>
+                         </property>
+                         <property name="sizeHint" stdset="0">
+                          <size>
+                           <width>20</width>
+                           <height>10</height>
+                          </size>
+                         </property>
+                        </spacer>
+                       </item>
+                       <item>
                         <widget class="QListWidget" name="userList">
                          <property name="sizePolicy">
                           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -774,6 +788,16 @@ border-bottom: 1px solid rgba(255, 255, 255, 75);/*white*/
                            <height>79</height>
                           </size>
                          </property>
+                         <property name="font">
+                          <font>
+                           <weight>75</weight>
+                           <bold>true</bold>
+                          </font>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">
+</string>
+                         </property>
                          <property name="frameShape">
                           <enum>QFrame::StyledPanel</enum>
                          </property>
@@ -789,38 +813,13 @@ border-bottom: 1px solid rgba(255, 255, 255, 75);/*white*/
                            <height>32</height>
                           </size>
                          </property>
+                         <property name="spacing">
+                          <number>2</number>
+                         </property>
                          <property name="currentRow">
                           <number>-1</number>
                          </property>
-                         <item>
-                          <property name="text">
-                           <string>Yeni Öge</string>
-                          </property>
-                         </item>
-                         <item>
-                          <property name="text">
-                           <string>Yeni Öge</string>
-                          </property>
-                         </item>
-                         <item>
-                          <property name="text">
-                           <string>Yeni Öge</string>
-                          </property>
-                         </item>
                         </widget>
-                       </item>
-                       <item>
-                        <spacer name="verticalSpacer_20">
-                         <property name="orientation">
-                          <enum>Qt::Vertical</enum>
-                         </property>
-                         <property name="sizeHint" stdset="0">
-                          <size>
-                           <width>20</width>
-                           <height>10</height>
-                          </size>
-                         </property>
-                        </spacer>
                        </item>
                        <item>
                         <widget class="QComboBox" name="autoLogin">
@@ -1165,7 +1164,8 @@ border-bottom: 1px solid rgba(255, 255, 255, 75);/*white*/
          <string notr="true">QPushButton{
 	padding: 3px 10px 3px 10px;
 	color: white;
-	border:0px;
+	border:1px solid rgba(255, 255, 255, 80);
+    border-top:0px;
 	background-color: rgba(0, 0, 0, 20);
 	border-radius: 0px;
 	border-bottom-left-radius: 2px;
