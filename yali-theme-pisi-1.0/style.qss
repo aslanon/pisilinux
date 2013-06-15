@@ -383,43 +383,47 @@
 
 /* #QlistView */
 
+    
     QListView {
-        background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
-            stop:0 rgba(27, 27, 27, 10),
-            stop:0.510753 rgba(9, 9, 9, 10),
-            stop:1 rgba(0, 0, 0, 10));
         show-decoration-selected: 1; /* make the selection span the entire width of the view */
     }
-
-    QListView::item{
-        border-radius: 2px;
-        border:0px;
-        padding: 5px;
+    
+    QListView{
+        background-color: rgba(0, 0, 0, 0);
+        border-radius:2px;
+        color:white;
+    }
+    
+    QListView::item {
+        border-radius:2;
         background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
             stop:0 rgba(0, 0, 0, 0));
+        color: rgb(220, 220, 220);
+        padding:5
     }
+    
+    QListView::item:hover {
+        border-radius:2;
+        color:white;
+        border:1px solid rgba(255, 255, 255, 70);
+        background-color:qlineargradient(spread:repeat, x1:1, y1:0.506, x2:1, y2:0,
+            stop:0 rgba(240, 240, 240, 35),
+            stop:1 rgba(255, 255, 255, 20));
+    }
+    
+    QListView::item:selected {
+        border-radius:2;
+        background-color:qlineargradient(spread:repeat, x1:1, y1:0.506, x2:1, y2:0,
+            stop:0 rgba(240, 240, 240, 35), 
+            stop:1 rgba(255, 255, 255, 20));
+        color:white;
+        border:1px solid rgba(255, 255, 255, 70);
+    }
+        
     QListView::item:alternate {
         background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
-            stop:0 rgba(0, 0, 0, 5));
+            stop:0 rgba(0, 0, 0, 50));    
     }
-    QListView::item:selected {
-        border:0px;
-    }
-
-    QListView::item:selected:!active {
-        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
-            stop:0 rgba(52, 52, 52, 50));
-    }
-
-    QListView::item:selected:active {
-        background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
-            stop:0 rgba(52, 52, 52, 50));
-    }
-
-    QListView::item:hover {
-        color:white;
-    }   
-        
 
 /* #QTimeEdit */
 
@@ -778,11 +782,9 @@
 /* #QTreeView */
 
     QTreeView {
-        border: 1px solid rgba(255,255,255,80);
+        border: 0px solid rgba(255,255,255,100);
         border-radius: 3px;
-        selection-background-color: rgba(255, 255, 255, 30);
-        background-color:rgba(255, 255, 255, 10);
-        color:white
+        selection-background-color: gray;
     }
 
     QTreeView::branch:has-children:!has-siblings:closed,
@@ -801,17 +803,16 @@
 /* #QHeaderView Table Column Headers */
 
     QHeaderView::section {
-        background-color:qlineargradient(spread:repeat, x1:0, y1:0, x2:0, y2:1,
-           stop:0.42623 rgba(200, 79, 136, 200), 
-           stop:0.489247 rgba(200, 52, 119, 200),
-           stop:1 rgba(200, 0, 105, 200));
+        background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                          stop:0 #616161, stop: 0.5 #505050,
+                          stop: 0.6 #434343, stop:1 #656565);
         font-size: 8pt;
         color: white;
         padding-left:5px;
         border-right: 1px solid rgba(255,255,255,20);
         border-left: 1px solid rgba(255,255,255,20);
         border-top: 1px solid rgba(255,255,255,20);
-        border-bottom: 1px solid rgba(255,255,255,80);
+        border-bottom: 1px solid rgba(255,255,255,20);
         height: 27px
     }
 
